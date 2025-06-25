@@ -88,15 +88,15 @@ Once installation finishes, you can start using Ubuntu inside VirtualBox.
 
 
 ## Study of some more concepts
-**Difference between Product based and Service based companies**
+**Difference between Product based , Service based companies and Startup**
 
-| Feature                 | Product-based Companies                     | Service-based Companies                     |
-|-------------------------|---------------------------------------------|---------------------------------------------|
-| **Definition**          | Build and sell their own products           | Provide services to clients/customers       |
-| **Revenue Model**       | Earn money by selling products              | Earn money by charging for services rendered|
-| **Examples**            | Microsoft, Google, Apple                    | TCS, Infosys, Accenture                     |
-| **Focus**               | Product development and innovation          | Client satisfaction and project delivery    |
-| **Work Culture**        | Product lifecycle, feature updates          | Client deadlines, customization             |
+| Feature                 | Product-based Companies                     | Service-based Companies                     | Startup                                                            |
+|-------------------------|---------------------------------------------|---------------------------------------------|--------------------------------------------------------------------|
+| **Definition**          | Build and sell their own products           | Provide services to clients/customers       | A new company aiming to solve a big problem in an innovative way   |
+| **Revenue Model**       | Earn money by selling products              | Earn money by charging for services rendered| Usually a mix: early investment → selling product/service to scale |
+| **Examples**            | Microsoft, Google, Apple                    | TCS, Infosys, Accenture                     | Airbnb (home-booking), SpaceX (rockets), Stripe (digital payments) |
+| **Focus**               | Product development and innovation          | Client satisfaction and project delivery    | Rapid growth, experimentation, market fit, scaling fast            |
+| **Work Culture**        | Product lifecycle, feature updates          | Client deadlines, customization             | Fast decision-making,lean team                                     |
 
 
 
