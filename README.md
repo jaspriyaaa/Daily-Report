@@ -38,7 +38,7 @@ It's known for being:
 
 
 **Why Linux is better than Windows?**
-Linux is better than Windows because it’s free, more secure, and highly customizable. It runs well on older hardware and offers strong support for developers. Plus, it respects your privacy with no hidden data tracking.
+Linux is better than Windows because it’s free, more secure, and highly customizable. It runs well on older hardware and offers strong support for developers. Plus, it respects your privacy with no hidden   data tracking.
 
 
 ## Installation of linux
