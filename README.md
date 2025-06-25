@@ -1,7 +1,7 @@
 # TRCS201_2025
 The daily dairy of training 2025
 # Training Day 01 :-
-## Itroduction
+## Introduction
 **What is Linux?**
 
 Linux is a family of open-source operating systems , initially released by Linus Torvalds in 1991. It is an operating system, like Windows or macOS.It helps your computer run programs and talk to hardware (like your keyboard, screen, and internet).
