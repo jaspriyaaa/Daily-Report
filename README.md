@@ -121,9 +121,11 @@ Example: Clicking "Restart" or pressing Ctrl + Alt + Del.
 ## Kernel
 
 **What is a Kernel?**
+
 The kernel is the core part of an operating system. It acts like a bridge between hardware and software.
 
 **What the Kernel Does:**
+
 Talks to the hardware (CPU, memory, devices)
 Manages system resources (like files, memory, and processes)
 Helps apps and the OS work together smoothly
