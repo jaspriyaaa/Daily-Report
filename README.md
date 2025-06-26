@@ -9,7 +9,7 @@ Linux is a family of open-source operating systems , initially released by Linus
 **Why Learn Linux?**
 
 1. Open Source and Free
-2. Ideal for Developers & DevOps
+2. Ideal for Developers 
 3. Improves System Understanding
 4. Better Security & Privacy
 5. In-Demand Skill
