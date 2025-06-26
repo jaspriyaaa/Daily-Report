@@ -93,7 +93,7 @@ Once installation finishes, you can start using Ubuntu inside VirtualBox.
 |-------------------------|---------------------------------------------|---------------------------------------------|--------------------------------------------------------------------|
 | **Definition**          | Build and sell their own products           | Provide services to clients/customers       | A new company aiming to solve a big problem in an innovative way   |
 | **Revenue Model**       | Earn money by selling products              | Earn money by charging for services rendered| Usually a mix: early investment → selling product/service to scale |
-| **Examples**            | Microsoft, Google, Apple                    | TCS, Infosys, Accenture                     | Airbnb (home-booking), SpaceX (rockets), Stripe (digital payments) |
+| **Examples**            | Microsoft, Google, Apple                    | TCS, Infosys                                | Airbnb (home-booking), SpaceX (rockets), Stripe (digital payments) |
 | **Focus**               | Product development and innovation          | Client satisfaction and project delivery    | Rapid growth, experimentation, market fit, scaling fast            |
 | **Work Culture**        | Product lifecycle, feature updates          | Client deadlines, customization             | Fast decision-making,lean team                                     |
 
