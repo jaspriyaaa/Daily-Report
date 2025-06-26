@@ -272,11 +272,17 @@ Creates an empty file.
 
 Syntax:-touch [file_name]
 
+![alt taxt](touch.png)
+
 - **cp**
 
 Copies files or folders.
 
 Syntax:-cp source.txt destination.txt
+
+![alt taxt](cp.png)
+
+![alt taxt](cp2.png)
 
 - **pwd**
 
@@ -284,11 +290,15 @@ Shows the current directory path.
 
 Syntax:- pwd
 
+![alt taxt](pwd.png)
+
 - **whereis**
 
 Finds the location of a binary (executable), source, and manual page for a command.
 
 Syntax:- whereis [command_name]
+
+![alt taxt](whereis.png)
 
 - **whatis**
 
@@ -296,11 +306,17 @@ Gives a short one-line description of a command — great for quick help!
 
 Syntax:-whatis [command_name]
 
+![alt taxt](whatis.png)
+
 - **mv**
 
 Moves or renames files/directories.
 
 Syntax:-mv oldname.txt newname.txt  
+
+![alt taxt](mv.png)
+![alt taxt](mv2.png)
+![alt taxt](mv3.png)
 
 - **clear** 
 
@@ -323,6 +339,8 @@ It includes:-
 Opens the file (or creates it) in the Nano editor.
 
 Syntax:-nano filename.txt
+
+![alt taxt](nano.png)
 
 
 
