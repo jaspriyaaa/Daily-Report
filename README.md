@@ -178,7 +178,7 @@ Examples: Windows Explorer, macOS Finder.
 
 ##File System Structure
 
-
+![alt text](filesystemstructure.jpg)
 
 
 - / — Root directory (the starting point of the file system)
