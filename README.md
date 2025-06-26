@@ -178,7 +178,7 @@ Examples: Windows Explorer, macOS Finder.
 
 ##File System Structure
 
-
+![alt text](filee.jpg)
 
 
 - / — Root directory (the starting point of the file system)
@@ -282,7 +282,7 @@ Syntax:-cp source.txt destination.txt
 
 ![alt taxt](cp.png)
 
-
+![alt taxt](cp3.png)
 
 - **pwd**
 
