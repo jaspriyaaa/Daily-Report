@@ -231,11 +231,15 @@ The whoami command shows the username of the current user logged into the shell.
 
 Syntax:-whoami
 
+![alt taxt](whoami.png)
+
 - **date**
 
 The date command in Linux is used to display the current date and time.
  
 Syntax:-date
+
+![alt taxt](date.png)
 
 - **cd**
   
@@ -243,17 +247,24 @@ Change directory (e.g., cd Documents)
  
 Syntax:- cd [directory_path]
 
+![alt taxt](cd.png)
+
+
 - **mkdir**
 
 Create a new directory,if already exist,error is displayed
 
 Syntax:-mkdir [folder_name]
 
+![alt taxt](mkdir.png)
+
 - **cat**
 
 Displays the content of a file.
 
 Syntax:-cat file.txt
+
+![alt taxt](cat.png)
 
 - **touch**
 
