@@ -133,8 +133,6 @@ Helps apps and the OS work together smoothly
 
 ## Introduction to Shell and Bash
 
-**Shell**
-
 **What is a Shell?**
 
 A Shell is a program that lets you interact with your computer by typing commands. Shell acts as an interface between the user and the operating system software, allowing users to execute commands.
@@ -156,6 +154,20 @@ Like bash, but with extra flair! It supports themes, plugins, and fancy auto-com
 **fish** — The Friendly: 
 
 Designed to be super user-friendly with colors, autosuggestions, and helpful hints right out of the box — ideal for beginners and pros who want to save time.
+
+**Categories of Shells**
+
+**Command Line Shells**
+
+Let you type commands to control your computer.
+Examples: bash, sh, zsh, fish.
+
+**Graphical Shells**
+
+Provide a visual interface with windows, icons, and menus.
+Examples: Windows Explorer, macOS Finder.
+
+
 
 
 
