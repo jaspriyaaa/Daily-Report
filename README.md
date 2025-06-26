@@ -124,7 +124,9 @@ Example: Clicking "Restart" or pressing Ctrl + Alt + Del.
 
 The kernel is the core part of an operating system. It acts like a bridge between hardware and software.
 
+
 ![alt text](shell.png)
+
 
 **What the Kernel Does:**
 
@@ -175,6 +177,8 @@ Examples: Windows Explorer, macOS Finder.
 
 
 ##File System Structure
+
+![alt text](file.png)
 
 
 - / — Root directory (the starting point of the file system)
