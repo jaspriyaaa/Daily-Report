@@ -86,6 +86,7 @@ Ubuntu is a popular Linux distribution.
 Once installation finishes, you can start using Ubuntu inside VirtualBox.
 
 
+
 ## Study of some more concepts
 **Difference between Product based , Service based companies and Startup**
 
@@ -96,6 +97,28 @@ Once installation finishes, you can start using Ubuntu inside VirtualBox.
 | **Examples**            | Microsoft, Google, Apple                    | TCS, Infosys                                | Airbnb (home-booking), SpaceX (rockets), Stripe (digital payments) |
 | **Focus**               | Product development and innovation          | Client satisfaction and project delivery    | Rapid growth, experimentation, market fit, scaling fast            |
 | **Work Culture**        | Product lifecycle, feature updates          | Client deadlines, customization             | Fast decision-making,lean team                                     |
+
+
+## Booting and its type
+**What is Booting?**
+
+Booting is the process of starting a computer. It loads the operating system (like Windows, Linux, or macOS) so the computer is ready to use.
+
+ 
+ **Types of Booting** 
+ 
+**Cold Boot (Hard Boot):**
+When you turn on a computer from a completely powered-off state.
+Example: Pressing the power button to start your PC.
+
+**Warm Boot (Soft Boot):**
+When you restart the computer without turning off the power.
+Example: Clicking "Restart" or pressing Ctrl + Alt + Del.
+
+
+
+
+
 
 
 
