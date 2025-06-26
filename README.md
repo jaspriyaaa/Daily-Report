@@ -201,7 +201,7 @@ Examples: Windows Explorer, macOS Finder.
 
 - /opt — Optional add-on software packages
 
-- /proc — Virtual filesystem for process and system info
+- /srv — It is used to store data for services that run on the system.
 
 - /root — Home directory of the root user (superuser)
 
