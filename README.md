@@ -348,6 +348,9 @@ Syntax:-nano filename.txt
 
 ![alt taxt](nano.png)
 
+- To come out of a Directory use syntax cd ..
+  
+
 
 
 
