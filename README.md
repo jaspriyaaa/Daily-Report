@@ -176,7 +176,7 @@ Provide a visual interface with windows, icons, and menus.
 Examples: Windows Explorer, macOS Finder.
 
 
-##File System Structure
+## File System Structure
 
 ![alt text](filee.jpg)
 
@@ -214,7 +214,7 @@ Examples: Windows Explorer, macOS Finder.
 - /var — Variable files like logs, mail, and caches
 
 
-##Basic Shell Command (Linux)
+## Basic Shell Command (Linux)
 
 - **ls**
 
