@@ -107,12 +107,12 @@ Booting is the process of starting a computer. It loads the operating system (li
  
  **Types of Booting** 
  
-**Cold Boot (Hard Boot):**
+**-Cold Boot (Hard Boot):**
 
 When you turn on a computer from a completely powered-off state.
 Example: Pressing the power button to start your PC.
 
-**Warm Boot (Soft Boot):**
+**-Warm Boot (Soft Boot):**
 
 When you restart the computer without turning off the power.
 Example: Clicking "Restart" or pressing Ctrl + Alt + Del.
@@ -141,19 +141,19 @@ A Shell is a program that lets you interact with your computer by typing command
 
 **Types of Shells**
 
-*Bash* — The Workhorse: 
+*-Bash* — The Workhorse: 
 
 The most popular shell out there, packed with features like command history and scripting power. It’s the everyday hero of Linux and macOS users.
 
-*Sh* — The Classic: 
+*-Sh* — The Classic: 
 
 The original shell that’s simple, reliable, and works almost everywhere. Perfect if you like things straightforward and old-school.
 
-*zsh* — The Customizer: 
+*-zsh* — The Customizer: 
 
 Like bash, but with extra flair! It supports themes, plugins, and fancy auto-completion to make your terminal both powerful and stylish.
 
-*fish* — The Friendly: 
+*-fish* — The Friendly: 
 
 Designed to be super user-friendly with colors, autosuggestions, and helpful hints right out of the box — ideal for beginners and pros who want to save time.
 
@@ -161,12 +161,12 @@ Designed to be super user-friendly with colors, autosuggestions, and helpful hin
 
 **Categories of Shells**
 
-*Command Line Shells*
+*-Command Line Shells*
 
 Let you type commands to control your computer.
 Examples: bash, sh, zsh, fish.
 
-*Graphical Shells*
+*-Graphical Shells*
 
 Provide a visual interface with windows, icons, and menus.
 Examples: Windows Explorer, macOS Finder.
