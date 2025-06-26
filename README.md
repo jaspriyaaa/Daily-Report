@@ -218,75 +218,88 @@ Examples: Windows Explorer, macOS Finder.
 
 - **ls**
 
-  List files and folders in the current directory
-  
-  ![alt text](1.jpg)
+List files and folders in the current directory
+
+Syntax:-ls
+ 
   
 
 - **whoami**
   
 The whoami command shows the username of the current user logged into the shell.
- Syntax:-
+
+Syntax:-whoami
 
 - **date**
 
 The date command in Linux is used to display the current date and time.
- Syntax:-
+ 
+Syntax:-date
 
 - **cd**
   
- Change directory (e.g., cd Documents)
- Syntax:- cd [directory_path]
+Change directory (e.g., cd Documents)
+ 
+Syntax:- cd [directory_path]
 
 - **mkdir**
 
-Create a new directory
+Create a new directory,if already exist,error is displayed
+
 Syntax:-mkdir [folder_name]
 
 - **cat**
 
 Displays the content of a file.
+
 Syntax:-cat file.txt
 
 - **touch**
 
 Creates an empty file.
+
 Syntax:-touch [file_name]
-touch notes.txt
 
 - **cp**
 
 Copies files or folders.
+
 Syntax:-cp source.txt destination.txt
 
 - **pwd**
 
 Shows the current directory path.
+
 Syntax:- pwd
 
 - **whereis**
 
 Finds the location of a binary (executable), source, and manual page for a command.
+
 Syntax:- whereis [command_name]
 
 - **whatis**
 
 Gives a short one-line description of a command — great for quick help!
+
 Syntax:-whatis [command_name]
 
 - **mv**
 
 Moves or renames files/directories.
+
 Syntax:-mv oldname.txt newname.txt  
 
 - **clear** 
 
 Clears the terminal screen.
+
 Syntax:-clear
 
 - **exit**
 
 Closes the terminal or shell session.
+
 Syntax:-exit
 
 ***editor Command***
@@ -296,6 +309,7 @@ It includes:-
 - **nano command**
 
 Opens the file (or creates it) in the Nano editor.
+
 Syntax:-nano filename.txt
 
 
