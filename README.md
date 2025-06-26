@@ -286,11 +286,11 @@ Syntax:-clear
 Closes the terminal or shell session.
 Syntax:-exit
 
-**editor Command**
+***editor Command***
 
 The term "editor command" usually refers to opening a text editor from the terminal to create or edit files.
 It includes:-
-- ***nano command***
+- **nano command**
 
 Opens the file (or creates it) in the Nano editor.
 Syntax:-nano filename.txt
