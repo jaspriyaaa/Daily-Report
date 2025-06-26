@@ -107,12 +107,12 @@ Booting is the process of starting a computer. It loads the operating system (li
  
  **Types of Booting** 
  
-**Cold Boot (Hard Boot):**
+- **Cold Boot (Hard Boot):**
 
 When you turn on a computer from a completely powered-off state.
 Example: Pressing the power button to start your PC.
 
-**Warm Boot (Soft Boot):**
+- **Warm Boot (Soft Boot):**
 
 When you restart the computer without turning off the power.
 Example: Clicking "Restart" or pressing Ctrl + Alt + Del.
@@ -123,6 +123,8 @@ Example: Clicking "Restart" or pressing Ctrl + Alt + Del.
 **What is a Kernel?**
 
 The kernel is the core part of an operating system. It acts like a bridge between hardware and software.
+
+![alt text](shell.png)
 
 **What the Kernel Does:**
 
