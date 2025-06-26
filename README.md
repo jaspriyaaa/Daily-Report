@@ -351,6 +351,7 @@ Syntax:-nano filename.txt
 - Go back one step
   
 Syntax:- cd ..
+
 This moves you up one level (like going back to the previous folder).
   
  
