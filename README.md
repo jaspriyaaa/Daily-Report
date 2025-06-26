@@ -1,4 +1,3 @@
-# TRCS201_2025
 The daily dairy of training 2025
 # Training Day 01 :-
 ## Introduction
