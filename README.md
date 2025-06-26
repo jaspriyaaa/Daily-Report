@@ -137,32 +137,36 @@ Helps apps and the OS work together smoothly
 
 A Shell is a program that lets you interact with your computer by typing commands. Shell acts as an interface between the user and the operating system software, allowing users to execute commands.
 
+
+
 **Types of Shells**
 
-**Bash** — The Workhorse: 
+*Bash* — The Workhorse: 
 
 The most popular shell out there, packed with features like command history and scripting power. It’s the everyday hero of Linux and macOS users.
 
-**Sh** — The Classic: 
+*Sh* — The Classic: 
 
 The original shell that’s simple, reliable, and works almost everywhere. Perfect if you like things straightforward and old-school.
 
-**zsh** — The Customizer: 
+*zsh* — The Customizer: 
 
 Like bash, but with extra flair! It supports themes, plugins, and fancy auto-completion to make your terminal both powerful and stylish.
 
-**fish** — The Friendly: 
+*fish* — The Friendly: 
 
 Designed to be super user-friendly with colors, autosuggestions, and helpful hints right out of the box — ideal for beginners and pros who want to save time.
 
+
+
 **Categories of Shells**
 
-**Command Line Shells**
+*Command Line Shells*
 
 Let you type commands to control your computer.
 Examples: bash, sh, zsh, fish.
 
-**Graphical Shells**
+*Graphical Shells*
 
 Provide a visual interface with windows, icons, and menus.
 Examples: Windows Explorer, macOS Finder.
