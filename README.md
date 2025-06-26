@@ -147,7 +147,7 @@ A Shell is a program that lets you interact with your computer by typing command
 
 *Bash* — The Workhorse: 
 
-The most popular shell out there, packed with features like command history and scripting power. It’s the everyday hero of Linux and macOS users.
+The most popular shell out there. It’s the everyday hero of Linux and macOS users.
 
 *Sh* — The Classic: 
 
