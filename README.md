@@ -1,5 +1,5 @@
-**The daily dairy of training 2025**
-# Training Day 01 :-
+**The daily dairy**
+# Day 01 :-
 ## Introduction
 **What is Linux?**
 
