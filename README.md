@@ -117,6 +117,18 @@ Example: Pressing the power button to start your PC.
 When you restart the computer without turning off the power.
 Example: Clicking "Restart" or pressing Ctrl + Alt + Del.
 
+# Day 02 
+## Kernel
+
+**What is a Kernel?**
+The kernel is the core part of an operating system. It acts like a bridge between hardware and software.
+
+**What the Kernel Does:**
+Talks to the hardware (CPU, memory, devices)
+Manages system resources (like files, memory, and processes)
+Helps apps and the OS work together smoothly
+
+
 
 
 
