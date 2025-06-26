@@ -221,7 +221,8 @@ Examples: Windows Explorer, macOS Finder.
 List files and folders in the current directory
 
 Syntax:-ls
- 
+
+![alt taxt](ls.png)
   
 
 - **whoami**
