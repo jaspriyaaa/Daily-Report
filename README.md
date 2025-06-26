@@ -324,11 +324,17 @@ Clears the terminal screen.
 
 Syntax:-clear
 
+![alt taxt](clear.png)
+
+![alt taxt](clear2.png)
+
 - **exit**
 
 Closes the terminal or shell session.
 
 Syntax:-exit
+
+![alt taxt](exit.png)
 
 ***editor Command***
 
