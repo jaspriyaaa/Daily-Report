@@ -219,6 +219,7 @@ Examples: Windows Explorer, macOS Finder.
 - **ls**
 
   List files and folders in the current directory
+  
 
 - **whoami**
   
