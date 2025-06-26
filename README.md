@@ -220,6 +220,8 @@ Examples: Windows Explorer, macOS Finder.
 
   List files and folders in the current directory
   
+  ![alt text](1.jpg)
+  
 
 - **whoami**
   
