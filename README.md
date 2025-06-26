@@ -348,11 +348,13 @@ Syntax:-nano filename.txt
 
 ![alt taxt](nano.png)
 
-- To come out of a Directory use
-
-  syntax:-  cd ..
+- Go back one step
   
-  ![alt text](cdn.png)
+Syntax:- cd ..
+This moves you up one level (like going back to the previous folder).
+  
+ 
+![alt text](cdn.png)
   
 
 
