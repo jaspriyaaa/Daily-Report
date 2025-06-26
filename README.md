@@ -73,8 +73,8 @@ Ubuntu is a popular Linux distribution.
 1. Open VirtualBox.
 2. Click **New** to create a new virtual machine.
 3. Name it “Ubuntu” and choose **Linux** as the type and **Ubuntu (64-bit)** as the version.
-4. Assign memory (RAM) — at least 2048 MB recommended.
-5. Create a virtual hard disk
+4. Assign memory (RAM).
+5. Create a virtual hard disk.
 6. After creating the VM, select it and click **Start**.
 7. When prompted, browse to the downloaded Ubuntu ISO file.
 8. Follow the on-screen instructions to install Ubuntu inside the VM.
