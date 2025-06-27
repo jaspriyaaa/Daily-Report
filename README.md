@@ -260,7 +260,7 @@ Syntax:-mkdir [folder_name]
 
 - **cat**
 
-Displays the content of a file.
+Creates the content of a file.
 
 Syntax:-cat file.txt
 
