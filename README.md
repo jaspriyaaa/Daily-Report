@@ -178,6 +178,9 @@ Examples: Windows Explorer, macOS Finder.
 
 ## File System Structure
 
+A file system structure is the way an operating system organizes, stores, and manages files on a storage device (like a hard drive, SSD, or USB). It defines how data is named, stored, and retrieved.
+
+
 ![alt text](filee.jpg)
 
 
