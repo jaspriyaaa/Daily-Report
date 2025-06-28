@@ -506,6 +506,9 @@ Syntax:-**chmod 444 filename.sh**
 | `4`        | Represents **read permission** (`r--`) in numeric form.       |
 | `444`      | Sets **read-only permission** for **owner, group, and others**. |
 
+![alt taxt](chmod444.png)
+
+![alt taxt](chmod-444.png)
 
 
 
@@ -523,6 +526,11 @@ Syntax:- **chmod 666 filename**
 | `666`        | Sets **read+ write** permissions for **owner, group, others**. |
 | `filename`   | The name of the file you want to apply the permission change to.            |
 
+![alt taxt](chmod666.png)
+
+![alt taxt](chmod-666.png)
+
+![alt taxt](chmod--666.png)
 
 
 
