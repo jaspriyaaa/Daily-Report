@@ -516,11 +516,12 @@ chmod 666 file/foldermeans that all users can read and write but cannot execute 
 
 Syntax:- **chmod 666 filename**
 
-|**chmod**  — the command to change file permissions|
+| Term         | Description                                                                 |
+|--------------|-----------------------------------------------------------------------------|
+| `chmod`      | Command used to **change file permissions** in Linux.                       |
+| `666`        | Sets **read+ write ** permissions for **owner, group, others**. |
+| `filename`   | The name of the file you want to apply the permission change to.            |
 
-|**666**  — sets read and write permission for owner, group, and others|
-
-|**filename** — the name of the file you want to change permissions for|
 
 
 
