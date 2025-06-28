@@ -536,7 +536,7 @@ Syntax:-
 **filename**  → the file or folder you want to change
 
 
-## Redirecting
+## Redirection
 
 
 
