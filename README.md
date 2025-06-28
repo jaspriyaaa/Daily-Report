@@ -399,7 +399,7 @@ A partitioning scheme is the way a computer’s hard drive is divided into separ
 
 
 | Feature        | MBR                          | GPT                           |
-|----------------|--------------------------------------------------------------|
+|----------------|------------------------------|-------------------------------|
 | Disk Size      | Up to 2 TB                   | More than 2 TB                |
 | Partitions     | Up to 4                      | Over 100                      |
 | Example        | Use **MBR** only for old ones| Use **GPT** for new computers |
