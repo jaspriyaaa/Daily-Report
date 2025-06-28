@@ -337,7 +337,15 @@ Closes the terminal or shell session.
 
 Syntax:-exit
 
-![alt taxt](exit.png)
+![alt taxt](exit.png
+
+
+- **echo command**
+
+The echo command  is used to print text or variables on the screen.
+
+Syntax:- echo [text or variable]
+
 
 ***editor Command***
 
@@ -451,9 +459,90 @@ Use the command:
 chmod [options] filename
 
 
+
+
 - **chmod**
 
-  chmod stands for change mode. It’s a Linux command used to change the permissions of files or directories.
+chmod stands for change mode. It’s a Linux command used to change the permissions of files or directories.
+
+Syntax:- chmod [options] mode filename]
+
+
+**chmod +x**
+
+Syntax:-chmod +x filename.sh 
+
+chmod: Command to change file permissions.
+
++x: Adds execute permission (makes the file runnable).
+
+filename.sh: The script file you want to make executable.
+
+
+If you have a shell script (.sh file), it needs execute permission before you can run it.
+
+chmod +x filename.sh
+
+This makes the script runnable. Then you can execute it by typing:
+
+./filename.sh
+
+
+
+
+**chmod 444**
+
+chmod 444 changes a file's permissions to read-only for everyone (owner, group, and others). This means that all users can read the file but cannot modify, delete, or execute it. 
+
+Syntax:-chmod 444 filename.sh
+
+chmod: This is the command used to change file permissions. 
+
+444: This is the numerical representation of the permissions. In octal notation, each digit represents permissions for a different entity: owner, group, and others. 
+
+4: In this context, the number 4 represents read permission. 
+
+444 means: The owner, group, and others all have read permissions. 
+
+
+
+
+
+**chmod 666**
+
+chmod 666 file/foldermeans that all users can read and write but cannot execute the file/folder
+
+Syntax:- chmod 666 filename
+
+chmod — the command to change file permissions
+
+666 — sets read and write permission for owner, group, and others
+
+filename — the name of the file you want to change permissions for
+
+
+
+- **chown**
+- 
+chown stands for change ownership.
+
+It's a Linux command used to change the owner or group of a file or directory.
+
+Syntax:-
+chown [new_owner]:[new_group] filename
+
+new_owner → the new user who should own the file
+
+new_group → (optional) the new group
+
+filename → the file or folder you want to change
+
+
+## Redirecting
+
+
+
+
 
 
 
