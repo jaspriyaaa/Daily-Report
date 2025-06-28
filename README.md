@@ -468,7 +468,7 @@ chmod stands for change mode. It’s a Linux command used to change the permissi
 Syntax:- **chmod [options] mode filename]**
 
 
-**chmod +x**
+***chmod +x***
 
 Syntax:-**chmod +x filename.sh**
 
@@ -490,7 +490,7 @@ This makes the script runnable. Then you can execute it by typing:
 
 
 
-**chmod 444**
+***chmod 444***
 
 chmod 444 changes a file's permissions to read-only for everyone (owner, group, and others). This means that all users can read the file but cannot modify, delete, or execute it. 
 
@@ -506,7 +506,7 @@ Syntax:-**chmod 444 filename.sh**
 
 
 
-**chmod 666**
+***chmod 666***
 
 chmod 666 file/foldermeans that all users can read and write but cannot execute the file/folder
 
