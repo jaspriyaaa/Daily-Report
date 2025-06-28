@@ -487,6 +487,10 @@ This makes the script runnable. Then you can execute it by typing:
 
 **./filename.sh**
 
+![alt taxt](chmodX.png)
+
+![alt taxt](chmodX1.png)
+
 
 
 
@@ -540,6 +544,7 @@ Syntax:-
 
 You can create a file and even write text into it using echo with output redirection.
 
+![alt taxt](echo.png)
 
 
 ## Redirection
@@ -573,6 +578,25 @@ command1 | command2
 ## Shell Examples
 
 **To display Name, Age, City of a user**
+
+![alt taxt](ex1.png)
+
+![alt taxt](ex-1.png)
+
+
+**Multiplication of a number upto 10**
+
+![alt taxt](ex2.png)
+
+![alt taxt](ex-2.png)
+
+
+
+**Compare two numbers**
+
+![alt taxt](ex3.png)
+
+![alt taxt](ex-3.png)
 
 
 
