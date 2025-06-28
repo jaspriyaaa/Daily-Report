@@ -555,6 +555,24 @@ Redirection means sending the output or input of a command to somewhere else —
 | `<`      | Redirect input (read from file)      | `wc -l < file.txt`               | Counts lines in file.txt as input      |
 
 
+## Pipes
+
+**What is a Pipe in Linux?**
+
+A pipe (|) is used to connect two commands so that the output of the first becomes the input of the second.
+
+Syntax:-
+command1 | command2
+- command1: runs first and sends its output
+
+- |: pipe operator
+
+- command2: takes input from command1
+
+
+## Shell Examples
+
+**To display Name, Age, City of a user**
 
 
 
