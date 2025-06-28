@@ -536,7 +536,25 @@ Syntax:-
 **filename**  → the file or folder you want to change
 
 
+## ECHO
+
+You can create a file and even write text into it using echo with output redirection.
+
+
+
 ## Redirection
+
+Redirection means sending the output or input of a command to somewhere else — like a file instead of the screen.
+
+***Redirection Operator**
+
+| Operator | Description                          | Example                         | Meaning                                |
+|----------|--------------------------------------|----------------------------------|----------------------------------------|
+| `>`      | Redirect output (overwrite file)     | `echo Hello > file.txt`          | Writes "Hello" to file.txt, replaces content |
+| `>>`     | Redirect output (append to file)     | `echo World >> file.txt`         | Adds "World" to the end of file.txt    |
+| `<`      | Redirect input (read from file)      | `wc -l < file.txt`               | Counts lines in file.txt as input      |
+
+
 
 
 
