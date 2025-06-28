@@ -461,7 +461,7 @@ chmod [options] filename
 
 
 
-## -chmod
+- ## chmod
 
 chmod stands for change mode. It’s a Linux command used to change the permissions of files or directories.
 
@@ -522,7 +522,7 @@ filename — the name of the file you want to change permissions for
 
 
 
-## - chown
+- ##  chown
 
 chown stands for change ownership.
 
