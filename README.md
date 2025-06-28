@@ -359,7 +359,53 @@ This moves you up one level (like going back to the previous folder).
   
  
 ![alt text](cdn.png)
-  
+
+
+# Day 03
+
+## What is Bare Metal Installation?
+Bare metal installation means installing an operating system (OS) directly onto a computer or server that has no software or OS installed — just the hardware.
+
+ 
+Example:
+
+You have a brand-new laptop or server — it has:
+
+No Windows
+
+No Linux
+
+No programs
+
+It’s just the bare hardware (CPU, hard drive, etc.).
+
+You plug in a USB drive with an OS installer (like Windows or Ubuntu), start the computer, and install the OS.
+That’s a bare metal installation.
+
+
+## What Is a Partitioning Scheme?
+
+A partitioning scheme is the way a computer’s hard drive is divided into separate sections (called partitions) so that the operating system (OS) and data can be stored and managed properly.
+
+**Types of Partitioning Schemes:**
+
+
+| Feature        | MBR                          | GPT                           |
+|----------------|--------------------------------------------------------------|
+| Disk Size      | Up to 2 TB                   | More than 2 TB                |
+| Partitions     | Up to 4                      | Over 100                      |
+| Example        | Use **MBR** only for old ones| Use **GPT** for new computers |
+
+
+## ISO file
+
+An ISO file is a copy of a whole CD, DVD, or software disc saved in one single file on your computer.
+
+**What Is It Used For?**
+
+- Installing operating systems (like Windows, Linux)
+
+- Backing up CDs/DVDs
 
 
 
