@@ -367,7 +367,7 @@ This moves you up one level (like going back to the previous folder).
 Bare metal installation means installing an operating system (OS) directly onto a computer or server that has no software or OS installed — just the hardware.
 
  
-Example:
+**Example:**
 
 You have a brand-new laptop or server — it has:
 
@@ -407,13 +407,54 @@ An ISO file is a copy of a whole CD, DVD, or software disc saved in one single f
 
 - Backing up CDs/DVDs
 
+## Virtual Box and VM Ware
+
+**VirtualBox**
+
+VirtualBox is a free software that lets you create and run virtual machines — which means you can run one operating system (like Linux or Windows) inside another (like your current Windows or macOS) without restarting your computer.
+
+**VMware**
+VMware is a company that makes software for running virtual machines. Their popular product, VMware Workstation Player, lets you run another operating system inside your current one, similar to VirtualBox, often with better performance and features for professional use.
 
 
 
+| Feature            | VirtualBox                            | VMware Workstation Player               |
+|--------------------|---------------------------------------|-----------------------------------------|
+| License            | Free & Open Source                    | Free for personal use                   |
+| OS Support         | Windows, Linux, macOS, Solaris        | Windows, Linux                          |
+| Performance        | Good                                  | Often better, especially graphics       |
+| Ease of Use        | Beginner-friendly                     | Polished, slightly more advanced        |
+
+**VirtualBox** is great for learning and testing.  
+
+**VMware** is ideal for better performance and professional use.
+
+
+ ## Dual boot
  
+ Dual boot means installing two operating systems (like Windows and Linux) on the same computer. When you turn on your computer, you get a choice to pick which OS you want to use.
 
 
-  
+## What is Slash ( / ) Full Disk?
+
+When someone says the slash ( / ) is full, it means the main system partition (called the root partition, represented by / in Linux) has no more free space left.
+
+
+## File and Directory Permissions in Linux
+
+Linux controls who can read, write, or execute files and directories using permissions.
+
+**How to Change Permissions**
+
+Use the command:
+
+chmod [options] filename
+
+
+- **chmod**
+
+  chmod stands for change mode. It’s a Linux command used to change the permissions of files or directories.
+
 
 
 
