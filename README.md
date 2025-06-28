@@ -546,7 +546,7 @@ You can create a file and even write text into it using echo with output redirec
 
 Redirection means sending the output or input of a command to somewhere else — like a file instead of the screen.
 
-***Redirection Operator**
+***Redirection Operator***
 
 | Operator | Description                          | Example                         | Meaning                                |
 |----------|--------------------------------------|----------------------------------|----------------------------------------|
