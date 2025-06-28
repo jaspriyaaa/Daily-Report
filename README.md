@@ -472,11 +472,11 @@ Syntax:- **chmod [options] mode filename]**
 
 Syntax:-**chmod +x filename.sh**
 
-**chmod:** Command to change file permissions.
-
-**+x:** Adds execute permission (makes the file runnable).
-
-**filename.sh:** The script file you want to make executable.
+| Term           | Description                                                 |
+|----------------|-------------------------------------------------------------|
+| `chmod`        | Command to **change file permissions** in Linux.            |
+| `+x`           | Adds **execute permission**, making the file runnable.      |
+| `filename.sh`  | The **script file** you want to make executable.            |
 
 
 If you have a shell script (.sh file), it needs execute permission before you can run it.
@@ -500,11 +500,12 @@ chmod 444 changes a file's permissions to read-only for everyone (owner, group, 
 
 Syntax:-**chmod 444 filename.sh**
 
-**chmod:** This is the command used to change file permissions. 
+| Term       | Description                                                  |
+|------------|--------------------------------------------------------------|
+| `chmod`    | Command used to **change file permissions** in Linux.        |
+| `4`        | Represents **read permission** (`r--`) in numeric form.       |
+| `444`      | Sets **read-only permission** for **owner, group, and others**. |
 
-**4:** In this context, the number 4 represents read permission. 
-
-**444 means:** The owner, group, and others all have read permissions. 
 
 
 
@@ -519,7 +520,7 @@ Syntax:- **chmod 666 filename**
 | Term         | Description                                                                 |
 |--------------|-----------------------------------------------------------------------------|
 | `chmod`      | Command used to **change file permissions** in Linux.                       |
-| `666`        | Sets **read+ write ** permissions for **owner, group, others**. |
+| `666`        | Sets **read+ write** permissions for **owner, group, others**. |
 | `filename`   | The name of the file you want to apply the permission change to.            |
 
 
@@ -534,11 +535,11 @@ It's a Linux command used to change the owner or group of a file or directory.
 Syntax:-
 **chown [new_owner]:[new_group] filename**
 
-**new_owner** → the new user who should own the file
-
-**new_group** → (optional) the new group
-
-**filename**  → the file or folder you want to change
+| Term         | Description                                         |
+|--------------|-----------------------------------------------------|
+| `new_owner`  | The **new user** who should own the file or folder. |
+| `new_group`  | *(Optional)* The **new group** to assign ownership. |
+| `filename`   | The **file or directory** whose ownership is changed. |
 
 
 ## ECHO
@@ -546,7 +547,6 @@ Syntax:-
 You can create a file and even write text into it using echo with output redirection.
 
 ![alt taxt](echo.png)
-
 
 ## Redirection
 
@@ -569,12 +569,12 @@ A pipe (|) is used to connect two commands so that the output of the first becom
 
 Syntax:-
 command1 | command2
-- command1: runs first and sends its output
 
-- |: pipe operator
-
-- command2: takes input from command1
-
+| Element     | Description                                           |
+|-------------|-------------------------------------------------------|
+| `command1`  | Runs first and **sends its output** to the pipe.      |
+| `|`         | The **pipe operator**, connects commands.             |
+| `command2`  | Takes the **output of command1 as input**.            |
 
 ## Shell Examples
 
