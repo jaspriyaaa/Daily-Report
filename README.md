@@ -337,7 +337,7 @@ Closes the terminal or shell session.
 
 Syntax:-exit
 
-![alt taxt](exit.png
+![alt taxt](exit.png)
 
 
 - **echo command**
