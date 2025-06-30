@@ -720,6 +720,8 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 
 ![alt text](motherboard.jpg)
 
+![alt text](CPUsockets.jpg)
+
 
 | Component           | Description                                                        |
 |---------------------|--------------------------------------------------------------------|
