@@ -718,7 +718,23 @@ It refers to the physical components of a computer or electronic system that you
 ## Motherboard
 The motherboard is the main printed circuit board (PCB) in a computer or electronic device. It serves as the central backbone that connects and allows communication between all hardware components such as the CPU, memory (RAM), storage devices, power supply, and peripherals.
 
+![alt text](motherboard.jpg)
 
+
+| Component           | Description                                                        |
+|---------------------|--------------------------------------------------------------------|
+| CPU Socket          | The slot where the processor (CPU) is installed                     |
+| RAM Slots (DIMM)    | Slots for installing memory modules (RAM)                           |
+| Chipset             | Manages data flow between CPU, memory, and peripherals              |
+| BIOS/UEFI Chip      | Firmware that initializes hardware during boot-up                   |
+| Power Connectors    | Connectors for power supply to distribute electricity to components |
+| Expansion Slots     | Slots (PCI, PCIe) for adding graphics cards, network cards, etc.    |
+| SATA Ports          | Connectors for storage devices like HDDs and SSDs                   |
+| M.2 Slots           | Connectors for modern high-speed SSDs                               |
+| CMOS Battery        | Powers the BIOS memory to retain settings when the PC is off        |
+| USB Headers         | Connectors for USB ports on the front or back panel                 |
+| Audio Connectors    | Ports for audio input/output devices                                |
+| Network Port (Ethernet) | Connector for wired network connections                          |
 
 
 
