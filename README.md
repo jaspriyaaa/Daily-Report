@@ -398,7 +398,7 @@ A partitioning scheme is the way a computer’s hard drive is divided into separ
 **Types of Partitioning Schemes:**
 
 
-| Feature        | MBR                          | GPT                           |
+| Feature        | MBR (Master Boot Record)                        | GPT (Guided Partition Table)                         |
 |----------------|------------------------------|-------------------------------|
 | Disk Size      | Up to 2 TB                   | More than 2 TB                |
 | Partitions     | Up to 4                      | Over 100                      |
