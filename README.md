@@ -696,9 +696,27 @@ Quoting in Linux means using special characters (quotes) to preserve the literal
 | Backslash     | `\char`   | Escapes the next character to be treated literally    
 
 
+# Day 04:-
+
+## Hardware
+
+Hardware refers to the tangible, physical components of a computer system or electronic device that enable data processing, storage, input, and output operations.
+It refers to the physical components of a computer or electronic system that you can see and touch.
+
+| Hardware Type       | Description                                         | Examples                          |
+|---------------------|-----------------------------------------------------|----------------------------------|
+| Input Devices       | Devices that allow users to input data into a computer | Keyboard, Mouse, Scanner, Microphone |
+| Output Devices      | Devices that output data from the computer to the user | Monitor, Printer, Speakers       |
+| Processing Units    | Components that process data and execute instructions | CPU (Central Processing Unit), GPU (Graphics Processing Unit) |
+| Storage Devices     | Devices used to store data permanently or temporarily | Hard Drive (HDD), Solid State Drive (SSD), USB Flash Drive |
+| Memory              | Temporary storage used by the CPU to hold data and instructions | RAM (Random Access Memory), Cache |
+| Motherboard         | The main circuit board that connects all hardware components | Motherboard                     |
+| Power Supply Units  | Provides electrical power to all components          | PSU (Power Supply Unit)           |
+| Networking Hardware | Devices that connect computers and enable communication | Network Interface Card (NIC), Router, Switch |
 
 
-
+## Motherboard
+The motherboard is the main printed circuit board (PCB) in a computer or electronic device. It serves as the central backbone that connects and allows communication between all hardware components such as the CPU, memory (RAM), storage devices, power supply, and peripherals.
 
 
 
