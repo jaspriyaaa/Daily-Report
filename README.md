@@ -608,6 +608,100 @@ command1 | command2
 ![alt taxt](ex-3.png)
 
 
+## File Compression
+
+File compression is the process of reducing the size of a file or group of files to save storage space and make data transmission more efficient
+
+***Why Use File Compression?***
+- Save Storage Space: Compressed files take up less disk space, allowing you to store more data.
+
+- Faster Transmission: Smaller files transfer more quickly over networks, reducing upload and download times.
+
+- Efficient Sharing: Easier to share large files via email or cloud services.
+
+- Cost-Effective: Reduces bandwidth usage and storage costs.
+
+## GZIP(GNU zip)
+
+Gzip (short for GNU Zip) is a widely used tool and file format for compressing data. It reduces the size of files, making them easier and faster to store or transfer, without losing any information.
+
+Syntax:-**gzip filename**
+
+**Compress a File**
+To compress a file named **example.txt**, use the following command:
+
+- **gzip example.txt**
+
+This command will compress **example.txt** and create a new file named **example.txt.gz**, replacing the original file.
+
+
+- **Decompress a File**
+
+To decompress **example.txt.gz** you can use the **gunzip command**, which is equivalent:
+
+**gunzip example.txt.gz**
+
+This will decompress the file and remove the **.gz** extension, restoring the original **example.txt** file.
+
+- **Keep the Original File**
+
+To compress a file and keep the original, use the -k option:
+
+**gzip -k example.txt**
+  
+This will create **example.txt.gz** without deleting **example.txt**.
+
+## Wildcards
+
+Wildcards let you match filenames or strings with patterns. They're often used with commands like ls, cp, mv, and rm.
+
+
+| Wildcard | Meaning                      | Example                      |
+|----------|------------------------------|------------------------------|
+| *      | Matches zero or more characters | *.txt matches all .txt files |
+| ?      | Matches exactly one character | file?.txt matches file1.txt, fileA.txt |
+| [abc]  | Matches one character listed  | file[123].txt matches file1.txt, file2.txt, or file3.txt |
+|[a-z]   |  match exactly one character that is any lowercase letter | file[a-z].txt matches filea.txt, fileb.txt, but not file1.txt or fileA.txt |
+
+
+## Escaping Characters
+
+Escaping characters means using a special symbol (usually a backslash \) before a character to tell the computer to treat that character literally, not as a special or reserved symbol.
+
+| Character to Escape | How to Escape                | Purpose / Meaning                                      | Example                                     |
+|--------------------|-----------------------------|-------------------------------------------------------|---------------------------------------------|
+| Space (` `)         | Use backslash `\ ` or quotes | To treat space as part of filename or command argument | `file\ name.txt` or `"file name.txt"`       |
+| Backslash (`\`)     | Use double backslash `\\`    | To represent a literal backslash                        | `echo \\` prints `\`                         |
+| Dollar sign (`$`)   | Use backslash `\$`           | To prevent variable expansion                           | `echo \$HOME` prints `$HOME`                 |
+| Asterisk (`*`)      | Use backslash `\*`           | To treat `*` literally, not as a wildcard               | `ls \*.txt` lists files named `*.txt` literally |
+| Question mark (`?`)| Use backslash `\?`           | To treat `?` literally, not as a single-character wildcard | `ls file\?.txt` matches `file?.txt` literally |
+| Quotes (`"` or `'`)| Use backslash `\"` or `\'` inside quotes, or use different quote type | To include quotes in strings                      | `echo "He said \"Hi\""`                       |
+| Brackets (`[ ]`)    | Use backslash `\[` and `\]` | To treat brackets literally                             | `ls file\[1\].txt` matches `file[1].txt`    |
+
+
+## Quoting in Linux
+
+Quoting in Linux means using special characters (quotes) to preserve the literal value of characters or to group text so that the shell treats them as a single unit or literal string.
+
+***Why quoting is used?***
+
+- To prevent the shell from interpreting special characters like spaces, $, *, or ?
+
+- To pass strings with spaces or special symbols as one argument
+
+| Quote Type    | Syntax    | Behavior                                                                                      | Example                             |
+|---------------|-----------|-----------------------------------------------------------------------------------------------|-----------------------------------|
+| Single quotes | `'text'` | Preserves **literal value** of all characters inside                                          | `'Hello $USER * ?'` outputs exactly `Hello $USER * ?` |
+| Double quotes | `"text"` | Preserves most characters literally, but **allows variable expansion** and command substitution | `"Hello $USER"` outputs `Hello` followed by your username |
+| Backslash     | `\char`   | Escapes the next character to be treated literally    
+
+
+
+
+
+
+
+
 
 
 
