@@ -739,15 +739,304 @@ The motherboard is the main printed circuit board (PCB) in a computer or electro
 | Network Port (Ethernet) | Connector for wired network connections                          |
 
 
+# Day 05:-
+
+## PC & Network Troubleshooting
+
+##                                                                               Common issues and Problems in PC:
+
+
+***GPU (Graphics processor unit)***
+
+The GPU handles rendering of images, video, and animations. It’s essential for gaming, video editing, and applications that require parallel processing.
+
+**Common Symptoms of GPU Issues**
+
+| **Symptom**                        | **Description**                                                                  |
+|------------------------------------|----------------------------------------------------------------------------------|
+| No display / black screen          | Monitor shows no signal; system powers on but there's no video output           |
+| Screen artifacts / visual glitches | Weird lines, colors, or shapes on screen; may indicate VRAM or overheating issues|
+| Freezing or crashing in games      | Games crash to desktop or the system reboots; often related to thermal issues   |
+| GPU fan not spinning               | Fan stuck due to dust, failure, or low temp thresholds in passive cooling GPUs  |
+| Driver crashes / BSOD              | Display driver stops responding (e.g., `nvlddmkm.sys`, `atikmdag.sys`)          |
+| System doesn’t boot with GPU       | PC powers on but won’t POST or display; works without GPU or with another one   |
+| Loud fan noise under low load      | Malfunctioning fan curve or temperature sensor issues                           |
+| Flickering or blanking screen      | Loose cables, unstable overclock, or power issues   
+
+
+***Partitioning of Hard Disk***
+
+Partitioning divides a physical hard disk into multiple logical sections called partitions. Each partition can be formatted with a file system and assigned a drive letter, acting like separate drives.
+
+| Partition Type      | What It Is                        | Purpose                         |
+|---------------------|---------------------------------|--------------------------------|
+| Extended Partition  | A special partition that holds logical partitions | Lets you create more partitions than the MBR limit |
+| Logical Partition   | A partition inside the extended partition | Used to store files and data    |
+
+ ***Installation & Hard Disk Preparation: Partitioning***
+ 
+Partitioning is the process of dividing a hard disk into separate sections called partitions. This helps organize data and improves system management.
+
+**Primary Partition (C: Drive)**
+
+- This is where the operating system (Windows, Linux, Unix) is installed.
+
+- It contains all system files required to boot and run the OS.
+
+- Important: Avoid storing personal or important files here because if the OS crashes or needs to be reinstalled, these files may be lost.
+
+**Logical Drives (D:, E:, F:)**
+
+- These are additional partitions created within an extended partition.
+
+- They are typically used for storing personal data such as pictures, videos, documents, and other files.
+
+- Storing files here keeps them safer because these partitions are often unaffected if the OS partition crashes.
+
+- This setup also makes backing up and recovering personal files easier.
+
+
+**Best Practices**
+
+- Install the OS only on the C: drive.
+
+- Avoid storing personal or important files on C:, because if Windows crashes or needs a reinstall, those files may be lost.
+
+- Store all important data (e.g., photos, videos, documents) in logical drives (D:, E:, F:), which are often safe from OS-related crashes.
+
+
+## CAUSES AND FIXES OF SLOW SPEED OF PC
 
 
 
+| **Cause**                | **Explanation**                                                                                      | **Fix / Recommendation**                                                                                 |
+|--------------------------|----------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| **Desktop Clutter**       | Files on Desktop are stored on the C: drive by default, increasing system load.                    | Avoid keeping many folders/files on Desktop; move them to other drives (D:, E:, etc.).                    |
+| **Taskbar Shortcuts**     | Too many shortcuts can slow down system responsiveness.                                            | Keep minimal shortcuts on the taskbar.                                                                   |
+| **Browser Bookmarks**     | Excessive bookmarks can slow browser startup time.                                                 | Avoid storing too many bookmarks; organize and clean bookmarks regularly.                                |
+| **Temporary Files**       | Websites and apps create temp files, cookies, and caches that accumulate and slow the system.      | Regularly clear temporary files using system tools or cleanup utilities.                                 |
+| **RAM Overuse**           | Opening many applications or browser tabs consumes available RAM, slowing down the system.         | Limit the number of running apps/tabs; close unused programs.                                            |
+| **Malware Infection**     | Malware can consume system resources and degrade performance.                                      | Perform regular malware scans and keep antivirus software updated.                                      |
+| **Disk Fragmentation**    | Fragmented files cause delays in file access and reduce system efficiency.                          | Use **Defragment and Optimize Drives** tool: Go to *Start → Defragment and Optimize Drives* and schedule automatic defragmentation. |
 
 
+## System scanning and defragmentation
+
+### Optimization
+
+Optimization means making your computer or software work faster and more efficiently. It involves cleaning up unnecessary files, fixing errors, managing startup programs, and adjusting settings so everything runs smoothly.
+
+By optimizing your system, you can improve speed, reduce crashes, and get better overall performance
+
+### System Scanning and Antivirus Scanner
+
+### What is System Scanning?
+
+System scanning is the process of checking your computer for malicious software such as viruses, malware, spyware, and other security threats that can harm your system or slow it down.
+
+---
+
+### Why Use an Antivirus Scanner?
+
+- Detects and removes viruses and malware.
+- Protects personal data and system files.
+- Prevents unauthorized access or damage.
+- Keeps your system running smoothly.
+
+---
+
+### Defragment and Optimize Drives
+
+### What is Defragmentation?
+
+When files are saved, deleted, or modified, they can become fragmented — meaning parts of a file are scattered across the disk. This fragmentation slows down file access and overall system performance.
+
+Defragmentation rearranges fragmented files so they are stored contiguously, improving speed and efficiency.
+
+Keeping your system scanned and defragmented helps maintain smooth and fast performance.
 
 
+### Scheduled Optimization
+
+- **What is it?**  
+  Scheduled Optimization is an automatic process where Windows regularly defragments and optimizes your hard drives to keep them running efficiently.
+  
+*Why it’s important:**
+
+  Regular optimization keeps HDDs running smoothly and ensures SSDs maintain performance by running TRIM operations.
+
+---
+
+### Delivery Optimization
+
+- **What is it?**  
+  Delivery Optimization is a Windows feature that helps manage and speed up downloading Windows updates and Microsoft Store apps by using peer-to-peer (P2P) sharing across your local network or the internet.
 
 
+## Printer Problems and Solutions
+
+| **Problem**               | **Possible Cause**                         | **Solution**                                         |
+|---------------------------|--------------------------------------------|-----------------------------------------------------|
+| Printer not printing      | Printer offline or not connected           | Check printer power and cable connections. Set printer online in system settings. |
+| Paper jams                | Paper stuck inside the printer              | Open printer cover and gently remove jammed paper. Make sure to use correct paper size and quality. |
+| Poor print quality        | Low ink/toner or dirty print heads          | Replace ink or toner cartridges. Clean print heads via printer software.             |
+| Printer driver issues     | Outdated or corrupt printer drivers         | Update or reinstall printer drivers from manufacturer’s website.                      |
+| Printer not recognized   | USB/Network connectivity issues              | Check USB cable or network connection. Restart printer and PC.                        |
+| Slow printing            | Large print jobs or low memory               | Reduce print job size or increase printer memory if possible.                         |
+| Wireless printer not found| Wi-Fi connection problems                     | Ensure printer and PC are on the same network. Restart router and printer.            |
+
+---
+
+### Tips for Printer Maintenance
+
+- Regularly update printer drivers.
+  
+- Use recommended paper and ink/toner.
+  
+- Keep printer clean and free of dust.
+
+-  Restart printer and computer if issues persist.
+  
+- Consult printer manual for model-specific troubleshooting.
+
+---
+
+### Benefits of update
+
+Keeping your PC updated is crucial for maintaining optimal performance, security, and compatibility. Here are the key benefits:
+
+### 1. Security Enhancements
+
+- Patches vulnerabilities to protect against malware, viruses, and cyber attacks.
+  
+- Keeps your system safe from newly discovered threats.
+
+### 2. Performance Improvements
+
+- Optimizes system speed and responsiveness.
+ 
+- Fixes bugs that may slow down your computer.
+
+### 3. New Features & Functionalities
+
+- Adds new tools and features.
+  
+- Improves existing functionalities for better user experience.
+
+### 4. Bug Fixes
+
+- Resolves errors and glitches.
+  
+- Reduces system crashes and unexpected behaviors.
+
+### 5. Compatibility Updates
+
+- Ensures compatibility with the latest software and hardware.
+- 
+- Supports new peripherals and devices.
+
+### 6. System Stability & Reliability
+
+- Enhances overall system stability.
+- 
+- Minimizes system freezes and crashes.
+
+### 7. Driver Updates
+
+- Improves hardware performance.
+- 
+- Fixes hardware-related issues for smoother operation.
+
+---
+
+## PC Hardware Troubleshooting
+
+### Blue Screen of Death (BSOD)
+
+The **BSOD** is a Windows error screen shown after a serious system crash that forces a restart.
+
+ ***Common Causes***
+ 
+- Faulty hardware (RAM, HDD)
+  
+- Driver issues (outdated or corrupt)
+  
+- Software conflicts or corrupted system files
+  
+- Malware infections
+
+***What Happens***
+
+- System stops all operations
+  
+- Blue screen with error code appears
+ 
+- Automatic or manual restart follows
+
+  # System Crash Analysis
+
+System Crash Analysis is the process of diagnosing why a Windows system crashes, such as during a Blue Screen of Death (BSOD), to identify and fix the root cause.
+
+## Key Concepts
+
+### Dump Files
+
+When Windows crashes, it creates **dump files**—snapshots of system memory at the crash moment. These files contain critical information to analyze the error and are usually saved on the **C: drive** in locations like:
+
+Having sufficient free space on the C: drive is essential to allow these files to be saved.
+
+### Windows Debugging
+Windows debugging involves using specialized tools to analyze dump files and understand the crash cause. Common tools include:
+
+- **WinDbg**: Microsoft's official debugger for detailed dump analysis.
+ 
+- **BlueScreenView**: A simpler tool that summarizes BSOD dump files.
+
+Debugging helps identify:
+- Faulty drivers or system files
+- Hardware issues
+- Software conflicts
+
+## Role of the C: Drive
+- Stores dump files and system logs
+- Houses Windows OS files required for crash analysis
+- Needs enough space to save crash dumps; without it, useful diagnostic data may be lost
+
+## Basic Crash Analysis Workflow
+1. Locate dump files on the C: drive.  
+2. Use debugging tools (WinDbg or BlueScreenView) to analyze the dumps.  
+3. Identify error codes and faulting modules or drivers.  
+4. Review Windows Event Viewer for related system events.  
+5. Test hardware components if indicated.  
+6. Update, rollback, or reinstall drivers/software as needed.  
+7. Monitor system for stability after applying fixes.
+
+---
+
+## ASSIGNMENT
+
+## BIOS/UEFI Settings and POST Errors
+
+## BIOS/UEFI Settings
+
+- **BIOS (Basic Input/Output System)** and **UEFI (Unified Extensible Firmware Interface)** are firmware interfaces that initialize hardware during the boot process before handing control to the operating system.
+- They allow configuration of system settings such as boot order, hardware enable/disable, system clocks, security features, and power management.
+- UEFI is a modern replacement for BIOS, offering faster boot times, support for large drives, graphical interfaces, and secure boot options.
+
+## POST (Power-On Self Test)
+
+- When you power on a PC, the firmware runs the **POST** to check if the critical hardware components (CPU, RAM, GPU, storage devices, etc.) are functioning properly.
+- If POST detects issues, it may halt the boot process and signal errors via beep codes or error messages on screen.
+
+## Common POST Errors and Their Meanings
+
+| Error Type      | Description                                 | Possible Causes                         |
+|-----------------|---------------------------------------------|---------------------------------------|
+| Beep Codes      | Series of beeps indicating hardware issues | Faulty RAM, graphics card, motherboard, or CPU |
+| No Display      | Blank screen after POST                     | GPU failure, loose cables, or bad monitor |
+| CMOS Checksum Error | BIOS settings corrupted or reset        | Dead CMOS battery or corrupted BIOS firmware |
+| Keyboard Errors | Keyboard not detected                        | Faulty or disconnected keyboard       |
+| Memory Errors   | RAM test failure                            | Defective or improperly seated RAM    |
 
 
 
