@@ -939,7 +939,7 @@ The **BSOD** is a Windows error screen shown after a serious system crash that f
  
 - Automatic or manual restart follows
 
-  # System Crash Analysis
+## System Crash Analysis
 
 System Crash Analysis is the process of diagnosing why a Windows system crashes, such as during a Blue Screen of Death (BSOD), to identify and fix the root cause.
 
