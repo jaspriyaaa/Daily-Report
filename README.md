@@ -1169,6 +1169,56 @@ They can come from fake websites, email attachments, pop-up ads, USB drives, or 
 
 
 
+## RJ45 Connector, Ethernet Cable, and Crimping Tool
+
+
+### What is an Ethernet Cable?
+
+It’s a special type of cable made of 8 small wires twisted into 4 pairs inside a plastic jacket.
+
+It carries network data (internet, files, etc.) between devices like computers, routers, and switches.
+
+### What is an RJ45 Connector?
+
+It’s a small plastic plug with 8 metal pins inside.
+
+The 8 wires inside the Ethernet cable are inserted into the connector.
+
+When plugged into a device (computer, router), the metal pins touch the device’s contacts and transfer data.
+
+### What is a Crimping Tool?
+
+It’s a handheld tool used to attach the RJ45 connector to the Ethernet cable.
+
+It pushes small metal pins inside the connector down into the wires of the cable.
+
+It also secures the connector onto the cable so it doesn’t come loose.
+
+***How They Work Together:***
+
+- First, the Ethernet cable’s outer jacket is stripped to expose the 8 wires.
+
+- The wires are arranged in the correct order (following a wiring standard like T568B).
+
+- The wires are carefully pushed into the RJ45 connector so each wire fits into its own slot.
+
+- The connector with the wires inside is inserted into the crimping tool.
+
+- When you squeeze the crimping tool, the metal pins in the connector are pushed into the wires, making a strong electrical connection.
+
+- The tool also clamps the plastic connector tightly onto the cable, holding it firmly.
+
+- The cable is now ready to be plugged into devices to transmit data.
+
+***Why Are They Used?***
+
+Ethernet cables:*** To physically carry data signals between devices on a network.
+
+RJ45 connectors: To provide a standardized plug that fits network ports on devices.
+
+Crimping tools: To securely attach connectors to cables, ensuring reliable network connections without loose wires or signal loss.
+
+
 
 
 
