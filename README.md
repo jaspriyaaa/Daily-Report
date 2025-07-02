@@ -1006,6 +1006,170 @@ Debugging helps identify:
 
 
 
+# Day 06:-
+## SAFE MODE
+
+### What is Safe Mode?
+
+Safe Mode is a special way to start your computer when it's not working right.
+
+It is a diagnostic modoe in Windows oe macOS that loads only essential programs.
+
+It loads only the most important parts — no extra apps, drivers, or startup programs.
+It helps you find and fix problems like viruses, slow performance, or broken settings.
+
+***How to Start Safe Mode:***
+
+Hold Shift and click Restart on your computer.
+
+Choose Troubleshoot > Advanced Options > Startup Settings > Click Restart.
+
+Press 4 (for Safe Mode) or 5 (for Safe Mode with Internet).   
+
+***Why Use Safe Mode?***
+
+- To fix problems like crashes, viruses, or a very slow computer
+
+- To uninstall bad software or drivers
+
+- To run antivirus scans safely
+  
+
+  ***Why do we need Safe mode in Windows***
+
+  | **Reason**                              | **Description**                                                                 |
+| --------------------------------------- | ------------------------------------------------------------------------------- |
+| **Fix Startup Issues**                  | Helps boot the system when it fails to start normally due to software problems. |
+| **Remove Problematic Software/Drivers** | Allows safe uninstallation of apps or drivers that crash the system.            |
+| **Scan for Malware/Viruses**            | Loads minimal services, making malware easier to detect and remove.             |
+| **Diagnose Hardware Driver Issues**     | Disables custom drivers to help identify hardware conflicts or faulty drivers.  |
+| **Run System Restore**                  | Enables access to System Restore to roll back changes causing issues.           |
+| **Advanced Troubleshooting**            | Gives access to tools like Command Prompt for deep-level fixes.                 |
+
+
+| **Safe Mode Type**                 | **Description**                                                                 | **Use Case**                                                  |
+|-----------------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------|
+| **Safe Mode**                     | Loads only essential system files, drivers, and services.                        | Basic troubleshooting when Windows fails to start properly.   |
+| **Safe Mode with Networking**     | Same as Safe Mode, but also includes network drivers and services.              | Download drivers or updates, scan for malware online.         |
+| **Safe Mode with Command Prompt** | No graphical interface; opens Command Prompt only.                              | Advanced troubleshooting using command-line tools and scripts.|
+
+
+
+## RECOVERY TOOLS
+
+
+### What Are Recovery Tools?
+
+Recovery Tools help fix your computer if it won’t start properly or if something is broken.
+They are special tools that help you fix bigger problems — like when your PC won’t start, or system files are broken.
+
+ ***Common Recovery Tools:***
+ 
+**Startup Repair** – Fixes boot problems.
+
+**System Restore** – Goes back to an earlier time when your PC worked.
+
+**Command Prompt** – Lets you type commands to fix problems.
+
+**Reset This PC** – Reinstalls Windows (you can keep or remove your files).
+
+
+***Common access***
+
+| **Method**                      | **How to Access**                                                  | **What Happens**                                |
+|--------------------------------|-------------------------------------------------------------------|------------------------------------------------|
+| **From Windows Settings**       | Start > Settings > Update & Security > Recovery > Restart now    | PC restarts and opens recovery options menu    |
+| **Shift + Restart**             | Hold Shift key + Start > Power > Restart                         | Boots into recovery menu after restart         |
+| **Automatic Recovery**          | Repeated failed startups                                         | Windows auto-launches recovery tools           |
+| **Boot from USB/DVD**           | Boot PC from Windows installation media, select "Repair your computer" | Opens recovery environment                      |
+| **Special Key at Startup (OEM)**| Turn on PC, press keys like F11, F12, or Esc                     | Opens factory recovery partition/tools          |
+
+
+## OS repair
+
+Methods to fix corrupted or missing OS files
+
+OS Repair means fixing the software that runs your computer — called the Operating System (OS). For most PCs, this is Windows.
+
+When the OS has problems (like crashes, errors, or slow performance), OS repair tools help find and fix these problems so your computer works well again.
+
+Fixing corrupted or missing system files without reinstalling the whole operating system.
+
+
+
+***Why might you need OS repair?***
+
+- Your computer is freezing or crashing
+- You get error messages or blue screens
+- Windows doesn’t start properly
+- Programs don’t open or keep closing
+- Files or settings are missing or broken
+
+***How does OS repair work?***
+
+- It checks important system files and replaces damaged or missing ones.
+ 
+- It can restore Windows to an earlier, healthy state.
+
+- It can fix startup problems so Windows boots correctly.
+
+- If needed, it can reset or reinstall Windows without deleting your personal files.
+
+ ***Basic Methods***
+
+ 
+| **Method**                  | **How to Use**                                                                 | **Purpose**                                   |
+|-----------------------------|-------------------------------------------------------------------------------|-----------------------------------------------|
+| **System File Checker (SFC)**| Run Command Prompt as admin, type `sfc /scannow` and press Enter             | Scans and repairs corrupted or missing system files |
+| **DISM (Deployment Image Servicing and Management)** | Run Command Prompt as admin, type `DISM /Online /Cleanup-Image /RestoreHealth` and press Enter | Repairs Windows system image and fixes component store issues |
+| **Bootable USB Repair**     | Create Windows installation USB, boot PC from it, select **Repair your computer** | Access recovery tools to fix startup, restore system, or reinstall Windows |
+
+
+## Virus and Malware
+
+Viruses and malware are harmful programs that can mess up your computer, steal your information, or slow everything down.
+
+They can come from fake websites, email attachments, pop-up ads, USB drives, or bad software.
+
+| Virus/Malware Symptoms                 | Basic Removal Steps                                 |
+|--------------------------------------|----------------------------------------------------|
+| Computer is very slow or freezes      | Restart computer in **Safe Mode**                   |
+| Many pop-up ads appear                | Uninstall strange or unknown programs               |
+| Programs crash or close by themselves | Run a full scan with antivirus (e.g., Malwarebytes)|
+| Browser homepage changes or redirects | Clear browser history and reset browser settings    |
+| Files or folders missing or strange   | Delete temporary files (`temp`, `%temp%`, `prefetch`)|
+| Antivirus turns off or won’t update   | Check and disable suspicious startup programs       |
+| New programs appear you didn’t install| Restart computer normally after cleaning            |
+| Friends get emails/messages from you  | Keep antivirus updated and avoid suspicious links   |
+
+
+
+### Where should you keep your Windows Backup?
+
+| **Backup Location**          | **Description**                                               | **Pros**                                    | **Cons**                                     |
+|-----------------------------|---------------------------------------------------------------|---------------------------------------------|----------------------------------------------|
+| **External Drive**           | Backup stored on a USB external HDD or SSD                    | Portable, separate from main PC, offline protection | Can be lost, damaged, or stolen if not stored safely |
+| **Another Internal Partition** | Backup saved on a different partition of the same hard drive | Quick access, no extra device needed       | Risky if the whole drive fails or malware attacks entire disk |
+| **Cloud Storage**            | Backup uploaded to online services (OneDrive, Google Drive)  | Offsite backup, accessible anywhere, protected against physical damage | Requires internet, potential subscription fees, slower restore |
+
+
+### Where should you avoid your Windows Backup?
+
+| **Location**             | **Why to Avoid**                                                   |
+|--------------------------|--------------------------------------------------------------------|
+| **Same Internal Drive**  | If the drive fails or gets corrupted, both system and backup are lost |
+| **Desktop or System Partition** | Vulnerable to malware, accidental deletion, or OS corruption   |
+| **Unsecured USB Drives** | Easy to lose, steal, or get damaged without proper protection      |
+| **Temporary Folders**    | Often cleared automatically, leading to accidental backup loss    |
+| **Public or Shared Computers** | Risk of unauthorized access and data theft                      |
+| **Non-reliable Cloud Services** | Risk of data loss if service is unstable or discontinued       |
+
+
+
+
+
+
+
 
 
 
