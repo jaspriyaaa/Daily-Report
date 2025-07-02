@@ -1037,7 +1037,7 @@ Press 4 (for Safe Mode) or 5 (for Safe Mode with Internet).
 
   ***Why do we need Safe mode in Windows***
 
-  | **Reason**                              | **Description**                                                                 |
+| **Reason**                              | **Description**                                                                 |
 | --------------------------------------- | ------------------------------------------------------------------------------- |
 | **Fix Startup Issues**                  | Helps boot the system when it fails to start normally due to software problems. |
 | **Remove Problematic Software/Drivers** | Allows safe uninstallation of apps or drivers that crash the system.            |
