@@ -1609,7 +1609,7 @@ If not, it sends the data to the Default Gateway.
 The gateway/router sends the data out to the internet.
 
 
-***- Your computer wants to go to Google.**
+***- Your computer wants to go to Google.***
 
 ***- It sends the request to the default gateway.**
 
