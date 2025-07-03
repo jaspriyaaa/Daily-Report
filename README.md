@@ -1220,6 +1220,30 @@ Crimping tools: To securely attach connectors to cables, ensuring reliable netwo
 
 
 
+# Day 07:-
+
+## Networking Basics
+
+## Hosts
+
+***What is a Host?***
+
+- A Host is any device connected to a network that can send or receive data.
+
+- Examples: your computer, smartphone, printer, or a server.
+
+- Each host usually has its own IP address so it can be identified on the network.
+
+***Why are Hosts important?***
+
+- They are the endpoints where data is created or received.
+
+- Communication on a network happens between hosts.
+
+
+
+
+
 
 
 
