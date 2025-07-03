@@ -1393,6 +1393,86 @@ Classful addressing is an outdated method for allocating and managing IP address
 ![alt text](class.png)
 
 
+***IPv4 address is divided into two parts:***
+
+**Network ID:** Identifies the specific network to which a device belongs.
+**Host ID:** Identifies the specific device (host) within a network.
+
+
+![alt text]()
+
+
+![alt text]()
+
+
+### Class A (Large Networks)
+
+***Identification:*** Class A addresses have the first bit set to 0, so their first octet ranges from 0 to 127.
+
+***Address Range:*** 0.0.0.0 to 127.255.255.255
+
+***Network/Host Division:***
+
+***Network Bits:*** 8 bits (first octet)
+
+***Host Bits:*** 24 bits (remaining three octets)
+
+***Purpose:*** Designed for very large networks requiring a vast number of host addresses.
+
+
+### Class B (Medium to Large Networks)
+
+***Identification:*** Class B addresses have the first two bits set to 10, so their first octet ranges from 128 to 191.
+
+***Address Range:*** 128.0.0.0 to 191.255.255.255
+
+***Network/Host Division:***
+
+***Network Bits:*** 16 bits (first two octets)
+
+***Host Bits:*** 16 bits (remaining two octets)
+
+***Purpose:*** Suitable for medium to large-sized networks, such as universities or large enterprises.
+
+
+### Class C (Small Networks)
+
+***Identification:*** Class C addresses have the first three bits set to 110, so their first octet ranges from 192 to 223.
+
+***Address Range:*** 192.0.0.0 to 223.255.255.255
+
+***Network/Host Division:***
+
+***Network Bits:*** 24 bits (first three octets)
+
+***Host Bits:*** 8 bits (last octet)
+
+***Purpose:*** Ideal for small networks, such as small businesses or home networks.
+
+
+### Class D (Multicast)
+
+***Identification:*** Class D addresses have the first four bits set to 1110, so their first octet ranges from 224 to 239.
+
+***Address Range:*** 224.0.0.0 to 239.255.255.255
+
+***Purpose:*** Reserved for multicast groups, allowing one-to-many communication.
+
+- Not divided in NetID and HostID
+
+
+### Class E (Reserved for Future Use) 
+
+***Identification:*** Class E addresses have the first four bits set to 1111, so their first octet ranges from 240 to 255.
+
+***Address Range:*** 240.0.0.0 to 255.255.255.255
+
+***Purpose:*** Reserved for experimental purposes and future use; not assigned for general networking
+
+## Subnetting
+
+
+
 
 
 
