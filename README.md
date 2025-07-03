@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/44331f39-5185-4f20-a12c-fc2d2567aa84)**The daily dairy**
+**The daily dairy**
 # Day 01 :-
 ## Introduction
 **What is Linux?**
