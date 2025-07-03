@@ -1,4 +1,4 @@
-**The daily dairy**
+![image](https://github.com/user-attachments/assets/44331f39-5185-4f20-a12c-fc2d2567aa84)**The daily dairy**
 # Day 01 :-
 ## Introduction
 **What is Linux?**
@@ -1471,7 +1471,144 @@ Classful addressing is an outdated method for allocating and managing IP address
 
 ## Subnetting
 
+***What Is Subnetting?***
 
+Subnetting is the process of dividing a larger IP network into smaller, more manageable sub-networks, known as subnets. This practice enhances network performance, security, and organization. Each subnet operates as an independent network, allowing for efficient traffic management and improved security measures.
+
+
+***Why Use Subnetting?***
+
+- Efficient IP Address Utilization
+
+- Improved Network Performance
+
+- Enhanced Security
+
+- Simplified Network 
+
+### Subnet Mask
+
+A Subnet Mask is a 32-bit number that divides an IP address into network and host portions. It works alongside the IP address to determine which part of the address refers to the network and which part refers to the host.
+
+Format: Typically written in dotted-decimal notation (e.g., 255.255.255.0).
+
+Purpose: Identifies the network and host segments of an IP address.
+
+Example: For 255.255.255.0, the first 24 bits (255.255.255) represent the network, and the last 8 bits (0) represent the host.
+
+ ### CIDR Notation (Classless Inter-Domain Routing)
+ 
+CIDR Notation is a compact representation of an IP address and its associated subnet mask. It uses a slash (/) followed by the number of bits in the network portion.
+
+Format: IP_Address/Prefix_Length (e.g., 192.168.1.0/24).
+
+Purpose: Simplifies the representation of IP addresses and their subnet masks.
+
+Example: 192.168.1.0/24 means the first 24 bits are for the network, leaving 8 bits for hosts.
+
+### Network IP Address
+
+The Network IP Address identifies the network itself and is used to route packets to the correct network.
+
+Calculation: Perform a bitwise AND operation between the IP address and the subnet mask.
+
+Example: For 192.168.1.65/27, the network address is 192.168.1.64.
+
+
+### Broadcast IP Address
+
+The Broadcast IP Address is used to send data to all devices on a subnet simultaneously.
+
+Calculation: Invert the subnet mask to get the wildcard mask, then perform a bitwise OR operation between the IP address and the wildcard mask.
+
+Example: For 192.168.1.65/27, the broadcast address is 192.168.1.95
+
+
+## Assignment
+
+
+### Difference between Unicast , Broadcast and Multicast         
+
+| Feature              | Unicast                                          | Broadcast                                         | Multicast                                         |
+|----------------------|-------------------------------------------------|--------------------------------------------------|--------------------------------------------------|
+| **Definition**       | One-to-one communication                          | One-to-all communication                          | One-to-many communication                         |
+| **Recipients**       | Single specific device                            | All devices on the network                         | A specific group of devices that joined the group|
+| **Efficiency**       | Efficient, only one receiver                      | Inefficient, all devices receive data             | Efficient, only interested receivers get data    |
+| **Use Case Examples**| Web browsing, file transfer, email               | ARP requests, DHCP discovery                       | IPTV, video conferencing, stock ticker updates   |
+| **IP Address Range** | Any unicast IP (e.g., `192.168.1.10`)            | `255.255.255.255` (IPv4 broadcast)                 | `224.0.0.0` – `239.255.255.255` (IPv4 multicast) |
+| **MAC Address**      | Device’s unique MAC address                        | `FF:FF:FF:FF:FF:FF` (broadcast)                    | Starts with `01:00:5E` (IPv4 multicast)           |
+| **Layer**            | Primarily Network Layer (Layer 3)                 | Data Link (Layer 2) and Network Layer (Layer 3)   | Primarily Network Layer (Layer 3)                  |
+| **Scope**            | Anywhere reachable via routing                     | Limited to local broadcast domain                  | Can cross networks with multicast routing support |
+
+
+
+### What is a MAC Address?
+
+MAC stands for Media Access Control address.
+
+It is a unique hardware identifier assigned to a network interface card (NIC).
+
+It’s like a unique name tag for your device’s network card.
+
+Every device that connects to a network has its own MAC address.
+
+It helps devices find each other inside the same local network (like your home Wi-Fi).
+
+
+***Purpose of MAC Addresses***
+
+- Identify devices within the same local network segment.
+
+- Used for delivering frames on Ethernet networks.
+
+- Essential for communication inside a LAN because IP addresses alone don’t get packets to the physical device.
+
+
+### What is DNS?
+
+DNS stands for Domain Name System.
+
+It’s like the phonebook of the internet.
+
+It translates website names (like google.com) into IP addresses (like 172.217.10.46) that computers use to find each other.
+
+***Why do we need DNS?***
+
+Humans find it easier to remember names like facebook.com than long numbers (IP addresses).
+
+Computers need IP addresses to communicate.
+
+DNS helps bridge that gap by translating names into numbers instant.
+
+
+### What is a Default Gateway?
+
+The Default Gateway is like the door your device uses to leave your local network and connect to other networks, like the internet.
+
+It’s usually the IP address of your router.
+
+***Why do we need a Default Gateway?*** 
+
+When your device wants to talk to computers outside your local network (like visiting a website), it sends the data to the Default Gateway.
+
+The gateway then forwards this data to the destination.
+
+***How it works:***
+
+Your computer wants to visit a website.
+
+It checks if the website is inside the local network.
+
+If not, it sends the data to the Default Gateway.
+
+The gateway/router sends the data out to the internet.
+
+
+***- Your computer wants to go to Google.**
+
+***- It sends the request to the default gateway.**
+
+***- The gateway/router sends it to the internet to find Google.***
 
 
 
