@@ -1245,6 +1245,8 @@ Crimping tools: To securely attach connectors to cables, ensuring reliable netwo
 
 In networking, a host is any IP-enabled endpoint that can send/receive data. IoT devices—like sensors, smart cameras, fridges, thermostats—are all hosts
 
+![alt text](host.png)
+
 
 ## Network
 
@@ -1314,7 +1316,7 @@ An IPv6 address is written as eight groups of four hexadecimal digits, separated
 | **Address Space**   | ~4.3 billion addresses                    | ~340 undecillion addresses                  |
 | **Configuration**   | Manual or DHCP                            | Auto-configuration (SLAAC) or DHCPv6        |
 
-
+![alt text](IP.jpg)
 
 ## Notations
 
@@ -1399,10 +1401,11 @@ Classful addressing is an outdated method for allocating and managing IP address
 **Host ID:** Identifies the specific device (host) within a network.
 
 
-![alt text]()
+![alt text](IP_addressing_3.jpg)
 
 
-![alt text]()
+
+![alt text](images (1).png)
 
 
 ### Class A (Large Networks)
@@ -1484,7 +1487,9 @@ Subnetting is the process of dividing a larger IP network into smaller, more man
 
 - Enhanced Security
 
-- Simplified Network 
+- Simplified Network
+
+  ![alt text](SUBNET.jpg)
 
 ### Subnet Mask
 
