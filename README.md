@@ -1323,7 +1323,7 @@ An IPv6 address is written as eight groups of four hexadecimal digits, separated
 The two prevalent notations used to represent IPv4 addresses:
 
 
-### Binary Notation
+- ### Binary Notation
 
 In binary notation, an IPv4 address is represented as a 32-bit string, divided into four 8-bit segments (octets). Each octet is expressed as an 8-digit binary number.
 
@@ -1343,7 +1343,7 @@ Each octet corresponds to the binary equivalent of the decimal numbers:
 
 00000001 → 1
 
-### Dotted Decimal Notation  
+- ### Dotted Decimal Notation  
 
 Dotted decimal notation is the most commonly used format for representing IPv4 addresses. It expresses the 32-bit address as four decimal numbers (octets), each ranging from 0 to 255, separated by periods.
 
@@ -1408,7 +1408,7 @@ Classful addressing is an outdated method for allocating and managing IP address
 ![alt text](images(1).png)
 
 
-### Class A (Large Networks)
+- ### Class A (Large Networks)
 
 ***Identification:*** Class A addresses have the first bit set to 0, so their first octet ranges from 0 to 127.
 
@@ -1423,7 +1423,7 @@ Classful addressing is an outdated method for allocating and managing IP address
 ***Purpose:*** Designed for very large networks requiring a vast number of host addresses.
 
 
-### Class B (Medium to Large Networks)
+- ### Class B (Medium to Large Networks)
 
 ***Identification:*** Class B addresses have the first two bits set to 10, so their first octet ranges from 128 to 191.
 
@@ -1438,7 +1438,7 @@ Classful addressing is an outdated method for allocating and managing IP address
 ***Purpose:*** Suitable for medium to large-sized networks, such as universities or large enterprises.
 
 
-### Class C (Small Networks)
+- ### Class C (Small Networks)
 
 ***Identification:*** Class C addresses have the first three bits set to 110, so their first octet ranges from 192 to 223.
 
@@ -1453,7 +1453,7 @@ Classful addressing is an outdated method for allocating and managing IP address
 ***Purpose:*** Ideal for small networks, such as small businesses or home networks.
 
 
-### Class D (Multicast)
+- ### Class D (Multicast)
 
 ***Identification:*** Class D addresses have the first four bits set to 1110, so their first octet ranges from 224 to 239.
 
@@ -1464,7 +1464,7 @@ Classful addressing is an outdated method for allocating and managing IP address
 - Not divided in NetID and HostID
 
 
-### Class E (Reserved for Future Use) 
+- ### Class E (Reserved for Future Use) 
 
 ***Identification:*** Class E addresses have the first four bits set to 1111, so their first octet ranges from 240 to 255.
 
@@ -1491,7 +1491,7 @@ Subnetting is the process of dividing a larger IP network into smaller, more man
 
   ![alt text](SUBNET.jpg)
 
-### Subnet Mask
+- ### Subnet Mask
 
 A Subnet Mask is a 32-bit number that divides an IP address into network and host portions. It works alongside the IP address to determine which part of the address refers to the network and which part refers to the host.
 
@@ -1501,7 +1501,7 @@ Purpose: Identifies the network and host segments of an IP address.
 
 Example: For 255.255.255.0, the first 24 bits (255.255.255) represent the network, and the last 8 bits (0) represent the host.
 
- ### CIDR Notation (Classless Inter-Domain Routing)
+ - ### CIDR Notation (Classless Inter-Domain Routing)
  
 CIDR Notation is a compact representation of an IP address and its associated subnet mask. It uses a slash (/) followed by the number of bits in the network portion.
 
@@ -1511,7 +1511,7 @@ Purpose: Simplifies the representation of IP addresses and their subnet masks.
 
 Example: 192.168.1.0/24 means the first 24 bits are for the network, leaving 8 bits for hosts.
 
-### Network IP Address
+- ### Network IP Address
 
 The Network IP Address identifies the network itself and is used to route packets to the correct network.
 
@@ -1520,7 +1520,7 @@ Calculation: Perform a bitwise AND operation between the IP address and the subn
 Example: For 192.168.1.65/27, the network address is 192.168.1.64.
 
 
-### Broadcast IP Address
+- ### Broadcast IP Address
 
 The Broadcast IP Address is used to send data to all devices on a subnet simultaneously.
 
@@ -1547,7 +1547,7 @@ Example: For 192.168.1.65/27, the broadcast address is 192.168.1.95
 
 
 
-### What is a MAC Address?
+## What is a MAC Address?
 
 MAC stands for Media Access Control address.
 
@@ -1569,7 +1569,7 @@ It helps devices find each other inside the same local network (like your home W
 - Essential for communication inside a LAN because IP addresses alone don’t get packets to the physical device.
 
 
-### What is DNS?
+## What is DNS?
 
 DNS stands for Domain Name System.
 
@@ -1586,7 +1586,7 @@ Computers need IP addresses to communicate.
 DNS helps bridge that gap by translating names into numbers instant.
 
 
-### What is a Default Gateway?
+## What is a Default Gateway?
 
 The Default Gateway is like the door your device uses to leave your local network and connect to other networks, like the internet.
 
