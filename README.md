@@ -1405,7 +1405,7 @@ Classful addressing is an outdated method for allocating and managing IP address
 
 
 
-![alt text](images(1).png)
+![alt text](prefix.png)
 
 
 - ### Class A (Large Networks)
