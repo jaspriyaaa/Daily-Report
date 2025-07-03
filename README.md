@@ -1611,7 +1611,7 @@ The gateway/router sends the data out to the internet.
 
 ***- Your computer wants to go to Google.***
 
-***- It sends the request to the default gateway.**
+***- It sends the request to the default gateway.***
 
 ***- The gateway/router sends it to the internet to find Google.***
 
