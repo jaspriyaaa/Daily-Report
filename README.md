@@ -1390,7 +1390,7 @@ geeksforgeeks.org
 
 Classful addressing is an outdated method for allocating and managing IP addresses in IPv4 networks. It divides the 32-bit IPv4 address space into five distinct classes (A, B, C, D, and E), each with predefined ranges and default subnet masks. This system was used from 1981 until 1993, when it was replaced by Classless Inter-Domain Routing (CIDR) to allow more efficient and flexible IP address allocation.
 
-[alt text](class.png)
+![alt text](class.png)
 
 
 
