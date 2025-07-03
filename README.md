@@ -1228,7 +1228,7 @@ Crimping tools: To securely attach connectors to cables, ensuring reliable netwo
 
 ***What is a Host?***
 
-- A Host is any device connected to a network that can send or receive data.
+- A Host is any device connected to a network that can send or receive traffic(data).
 
 - Examples: your computer, smartphone, printer, or a server.
 
@@ -1241,8 +1241,151 @@ Crimping tools: To securely attach connectors to cables, ensuring reliable netwo
 - Communication on a network happens between hosts.
 
 
+***IoT Devices as Hosts***
+
+In networking, a host is any IP-enabled endpoint that can send/receive data. IoT devices—like sensors, smart cameras, fridges, thermostats—are all hosts
 
 
+## Network
+
+***What Is a Network?***
+
+A computer network is a collection of interconnected devices—such as PCs, servers, IoT gadgets, and printers—that communicate and share resources over physical (cables, fiber) or wireless links using protocols like Ethernet, TCP/IP, and Wi‑Fi 
+
+A network is the infrastructure that transports traffic between hosts, enabling data to move from one IP‑enabled device (host) to another—whether they’re on the same local segment or spread across multiple networks.
+
+ Network can contain another network through subnetting, which divides a larger network into smaller, more manageable subnets.
+
+This process enhances network efficiency, security, and performance by organizing hosts into logical groups. 
+
+
+## IP Address 
+(identity of each host)
+
+An IP address (Internet Protocol address) is a unique numerical identifier assigned to each device connected to a computer network. It serves two primary functions:
+
+**- Identification:** Determines the identity of a device on the network.
+
+**- Location Addressing:** Specifies the device's location within the network, enabling data routing.
+
+### Types of IP Addresses
+
+***1. Public IP Address:*** Assigned to your network by your Internet Service Provider (ISP), allowing devices within your network to communicate with the internet.
+
+***2.Private IP Address:*** Used within a private network (e.g., home or office) and not routable over the internet. Devices within the same local network communicate using private IPs.
+
+
+## IPV4
+
+IPv4 is the fourth version of the Internet Protocol, introduced in 1981 by the Internet Engineering Task Force (IETF). It serves as the primary protocol for routing and addressing data packets across networks, ensuring devices can communicate effectively.
+
+IPv4 address is a 32-bit numerical label, typically represented in dotted decimal format as four octets (8 bits each), separated by periods. Each octet ranges from 0 to 255, allowing for approximately 4.3 billion unique addresses.
+
+**Example:**
+
+192.168.1.1
+
+This address is divided into two parts:
+
+**Network Portion:** Identifies the specific network.
+
+**Host Portion:** Identifies the specific device within that network.
+
+
+## IPV6
+
+IPv6 is the most recent version of the Internet Protocol, developed to address the limitations of IPv4, particularly the exhaustion of available IP addresses.
+
+IPv6 offers a vastly larger address space and improved features for modern networking needs.
+
+An IPv6 address is written as eight groups of four hexadecimal digits, separated by colons. Each group represents 16 bits, totaling 128 bits. 
+
+**For example:**
+
+2001:0db8:85a3:0000:0000:8a2e:0370:7334
+
+
+***IPv4 vs. IPv6:***
+
+| Feature             | IPv4                                      | IPv6                                        |
+|---------------------|-------------------------------------------|---------------------------------------------|
+| **Address Length**  | 32 bits     (4 octets)                    | 128 bits     (16 octets)                    |
+| **Address Format**  | Decimal (e.g., 192.168.1.1)               | Hexadecimal (e.g., 2001:0db8::1)            |
+| **Address Space**   | ~4.3 billion addresses                    | ~340 undecillion addresses                  |
+| **Configuration**   | Manual or DHCP                            | Auto-configuration (SLAAC) or DHCPv6        |
+
+
+
+## Notations
+
+The two prevalent notations used to represent IPv4 addresses:
+
+
+### Binary Notation
+
+In binary notation, an IPv4 address is represented as a 32-bit string, divided into four 8-bit segments (octets). Each octet is expressed as an 8-digit binary number.
+
+***Example:***
+
+For the IPv4 address 192.168.1.1, the binary representation is:
+
+11000000.10101000.00000001.00000001
+
+Each octet corresponds to the binary equivalent of the decimal numbers:
+
+11000000 → 192
+
+10101000 → 168
+
+00000001 → 1
+
+00000001 → 1
+
+### Dotted Decimal Notation  
+
+Dotted decimal notation is the most commonly used format for representing IPv4 addresses. It expresses the 32-bit address as four decimal numbers (octets), each ranging from 0 to 255, separated by periods.
+
+***Example:***
+
+The IPv4 address 192.168.1.1 is written as:
+
+192.168.1.1
+
+Each decimal number represents an 8-bit binary value:
+
+192 → 11000000
+
+168 → 10101000
+
+1 → 00000001
+
+1 → 00000001
+
+
+
+## Unique and Universal (IP Address
+
+### What Makes an IP Address Unique?
+
+**- Global Uniqueness:** Each device connected to the internet is assigned a unique IP address, ensuring that data sent over the network reaches the correct destination.
+
+**- Assignment by ISPs:** Internet Service Providers (ISPs) assign public IP addresses to devices, ensuring no two devices have the same address at the same time. 
+geeksforgeeks.org
+
+**- Private vs. Public IPs:**  While private IP addresses are unique within a local network, public IP addresses are unique across the entire internet. 
+geeksforgeeks.org
+
+ ### What Makes an IP Address Universal?
+ 
+**- Global Addressing:** Public IP addresses are routable across the internet, allowing devices worldwide to communicate with each other.
+
+**- Standardized Protocols:** The Internet Assigned Numbers Authority (IANA) and regional registries manage and allocate IP addresses, ensuring a consistent and universal addressing scheme. 
+
+**-IPv6 Expansion:** With the introduction of IPv6, the address space has expanded significantly, providing a virtually unlimited number of unique addresses to accommodate the growing number of internet-connected devices. 
+
+
+
+## Classful Addressing
 
 
 
