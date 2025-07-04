@@ -1630,7 +1630,7 @@ If the other computer replies, it means it’s online and connected.
 
 If there’s no reply, it might be offline or there could be a connection problem.
 
-### What does 64 Byte mean?
+- ### What does 64 Byte mean?
 
 When you see 64 bytes in a ping response, it means the size of the small data packet sent from your computer to the target device (like a server) is 64 bytes in size.
 
@@ -1643,7 +1643,7 @@ In simple terms:
 64 bytes = the size of the “ping” message your computer sends to check if the other device is there.
 
 
-### What if website which is not on internet?
+- ### What if website which is not on internet?
 
 If a website is not on the internet (for example, it’s only on a private network or it doesn’t exist publicly), and you try to access or ping it, you will likely get an **unknown host** error.
 
@@ -1679,7 +1679,7 @@ The most common loopback IP address is:
 
 When you ping 127.0.0.1, you’re testing your own computer’s network system — not the internet or any other device.
 
-### Test loopback with ping:-
+- ### Test loopback with ping:-
 
 ping 127.0.0.1
 
@@ -1695,13 +1695,13 @@ When you use traceroute, it tells you all the different stops called “hops” 
 
 Syntax:- traceroute website
 
-When you run a traceroute, sometimes you’ll see lines like this:
+***When you run a traceroute, sometimes you’ll see lines like this:***
 
- 3  10 ms  12 ms  11 ms  203.0.113.5
+ ***3  10 ms  12 ms  11 ms  203.0.113.5***
  
  4  *  *  *
  
- 5  30 ms  29 ms  28 ms  172.217.10.46
+ ***5  30 ms  29 ms  28 ms  172.217.10.46***
 
 
 What do the *** mean?
