@@ -1616,6 +1616,63 @@ The gateway/router sends the data out to the internet.
 ***- The gateway/router sends it to the internet to find Google.***
 
 
+# Day 08:-
+
+## Commands
+
+## ping 
+
+The ping command is a tool that sends a small message from your computer to another computer or server (like a website) to check if it’s reachable. It measures how long it takes for that message to go there and come back.
+
+Think of it like knocking on a door to see if someone is home, and timing how fast they open it.
+
+If the other computer replies, it means it’s online and connected. 
+
+If there’s no reply, it might be offline or there could be a connection problem.
+
+### What does 64 Byte mean?
+
+When you see 64 bytes in a ping response, it means the size of the small data packet sent from your computer to the target device (like a server) is 64 bytes in size.
+
+Bytes are units of digital information. One byte is 8 bits, which can represent a small piece of data.
+
+So, the ping command sends a tiny “hello” message that is 64 bytes big by default (sometimes it can vary depending on your system). The response shows you how big the message was that was sent and received.
+
+In simple terms:
+
+64 bytes = the size of the “ping” message your computer sends to check if the other device is there.
+
+
+### What if website which is not on internet?
+
+If a website is not on the internet (for example, it’s only on a private network or it doesn’t exist publicly), and you try to access or ping it, you will likely get an **unknown host** error.
+
+This happens because:
+
+Your computer asks a DNS server (which translates website names into IP addresses) to find the address.
+
+Since the website isn’t on the internet or the DNS server doesn’t know about it, the lookup fails.
+
+Your computer then says "unknown host" because it can’t find the website’s address.
+
+
+- If a website is not on the internet — meaning its server isn’t connected or doesn’t have a public address — then:
+
+- When you try to ping that website’s address, your computer won’t get any reply.
+
+- The ping command will show “Request timed out” or “Destination host unreachable” messages.
+
+- This means your computer can’t find or reach that website.
+
+- Basically, ping only works if the target device or website is online and connected to the internet (or your local network).
+
+***Note:-***
+***Pressing Ctrl + C (holding the Control key and pressing C) stops the ping command. It tells the computer, “Stop pinging now.”***
+
+## Loopback
+
+
+
 
 
 
