@@ -1871,3 +1871,194 @@ Just like roads have lanes and traffic rules to avoid crashes, Ethernet has rule
 | **Internet**| The global system of interconnected networks | Global               | Wired and Wireless      | Accessing websites from anywhere in the world |
 
 
+# Day 09:-
+## Introduction to HTML & Web Basics 
+
+### What Is HTML?
+
+HTML stands for HyperText Markup Language. It's the standard language used to create and design web pages. HTML structures the content on the web by using a system of tags and attributes to define elements like headings, paragraphs, links, images, and more.
+
+### Basic Structure of an HTML Document
+
+An HTML document is composed of several key components:
+
+***<!DOCTYPE html>:*** Declares the document type and version of HTML being used (HTML5 in this case).
+
+***<html>:***  The root element that wraps all the content on the page.
+
+***<head>:***  Contains meta-information about the document, such as its title and links to stylesheets.
+
+***<title>:***  Specifies the title of the web page, which appears in the browser tab.
+
+***<body>:***  Contains the content of the web page that is visible to users, such as text, images, and links.
+
+**Here's a simple example:**
+
+html
+Copy
+Edit
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text.</p>
+  </body>
+</html>
+
+
+**In this example:**
+
+- The <!DOCTYPE html> declaration tells the browser to expect an HTML5 document.
+
+- The <html> tag encloses all the HTML content.
+
+- The <head> section includes the <title> tag, which sets the title of the page.
+
+- The <body> section contains the visible content, including a heading (<h1>) and a paragraph (<p>).
+
+## How Browsers Render HTML
+
+When you open a web page, your browser performs several steps to display the content:
+
+- Parsing: The browser reads the HTML code and converts it into a structure called the Document Object Model (DOM), which represents the page's structure as a tree of objects.
+
+- Styling: The browser applies styles (often from CSS) to the elements in the DOM to determine how they should look.
+
+- Layout: The browser calculates the size and position of each element on the page.
+
+- Painting: The browser fills in the pixels for each element, displaying the content on your screen.
+
+- This process allows the browser to transform the raw HTML code into a visually formatted web page that you can interact with.
+
+
+# Day 10 :-
+
+## Introduction to HTML & Web Basics
+
+***HTML tags: headings, paragraphs, lists, links, images***
+
+## Basic HTML Tags
+
+### 1. Headings (<h1> to <h6>)
+
+Headings define the structure and hierarchy of your content. HTML provides six levels of headings:
+
+<h1>: Main heading (most important)
+
+<h2>: Subheading
+
+<h3>: Sub-subheading
+
+<h4>: Further subheading
+
+<h5>: Less important subheading
+
+<h6>: Least important subheading
+
+**Example:**
+
+<h1>Main Heading</h1>
+
+<h2>Subheading</h2>
+
+<h3>Sub-subheading</h3>
+
+**Result:**
+
+Main Heading
+
+Subheading
+
+Sub-subheading
+
+**2. Paragraphs (<p>)**
+
+The <p> tag is used to define paragraphs of text, helping to structure and organize content into readable blocks.
+
+**Example:**
+
+<p>This is a paragraph of text.</p>
+
+<p>This is another paragraph.</p>
+
+**Result:**
+
+This is a paragraph of text.
+
+This is another paragraph.
+
+### 3. Lists
+
+***Unordered List (<ul>)***
+
+An unordered list is used to group a set of items that do not have a specific order. Each item is defined using the <li> tag.
+
+**Example:**
+
+<ul>
+ 
+  <li>Item 1</li>
+  
+  <li>Item 2</li>
+  
+  <li>Item 3</li>
+  
+</ul>
+
+**Result:**
+
+Item 1
+
+Item 2
+
+Item 3
+
+***Ordered List (<ol>)***
+An ordered list is used to group a set of items that have a specific order. Like unordered lists, each item is defined using the <li> tag.
+
+Example:
+
+<ol>
+ 
+  <li>First item</li>
+  
+  <li>Second item</li>
+  
+  <li>Third item</li>
+  
+</ol>
+Result:
+
+First item
+
+Second item
+
+Third item
+
+### 4. Links (<a>)
+
+The <a> tag defines hyperlinks, which allow users to navigate from one page to another.
+
+**Example:**
+
+<a href="https://www.example.com">Visit Example</a>
+
+**Result:**
+
+Visit Example
+
+### 5. Images (<img>)
+
+The <img> tag is used to embed images into a webpage. It requires the src attribute to specify the image source and the alt attribute to provide alternative text for accessibility.
+
+**Example:**
+
+<img src="image.jpg" alt="Description of image">
+
+**Result:**
+
+An image will be displayed (ensure "image.jpg" exists in the same directory).
+
