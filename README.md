@@ -1882,42 +1882,39 @@ HTML stands for HyperText Markup Language. It's the standard language used to cr
 
 An HTML document is composed of several key components:
 
-***<!DOCTYPE html>:*** Declares the document type and version of HTML being used (HTML5 in this case).
+'<!DOCTYPE html>:' Declares the document type and version of HTML being used (HTML5 in this case).
 
-***<html>:***  The root element that wraps all the content on the page.
+'<html>:'  The root element that wraps all the content on the page.
 
-***<head>:***  Contains meta-information about the document, such as its title and links to stylesheets.
+'<head>:' Contains meta-information about the document, such as its title and links to stylesheets.
 
-***<title>:***  Specifies the title of the web page, which appears in the browser tab.
+'<title>' Specifies the title of the web page, which appears in the browser tab.
 
-***<body>:***  Contains the content of the web page that is visible to users, such as text, images, and links.
+'<body>:'  Contains the content of the web page that is visible to users, such as text, images, and links.
 
 **Here's a simple example:**
 
-html
-Copy
-Edit
-<!DOCTYPE html>
-<html>
-  <head>
+ <!DOCTYPE html>
+ <html>
+   <head>
     <title>My First Web Page</title>
-  </head>
-  <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a paragraph of text.</p>
-  </body>
-</html>
+   </head>
+   <body>
+     <h1>Welcome to My Website</h1>
+     <p>This is a paragraph of text.</p>
+   </body>
+ </html>
 
 
 **In this example:**
 
-- The <!DOCTYPE html> declaration tells the browser to expect an HTML5 document.
+- The '<!DOCTYPE html>' declaration tells the browser to expect an HTML5 document.
 
-- The <html> tag encloses all the HTML content.
+- The '<html>' tag encloses all the HTML content.
 
-- The <head> section includes the <title> tag, which sets the title of the page.
+- The '<head>' section includes the <title> tag, which sets the title of the page.
 
-- The <body> section contains the visible content, including a heading (<h1>) and a paragraph (<p>).
+- The '<body>' section contains the visible content, including a heading (<h1>) and a paragraph (<p>).
 
 ## How Browsers Render HTML
 
