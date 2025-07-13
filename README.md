@@ -1919,13 +1919,11 @@ An HTML document is composed of several **key components**:
 
 **In this example:**
 
-- The '<!DOCTYPE html>' declaration tells the browser to expect an HTML5 document.
+- The `<!DOCTYPE html>` declaration tells the browser to expect an HTML5 document.
+- The `<html>` tag encloses all the HTML content.
+- The `<head>` section includes the `<title>` tag, which sets the title of the page.
+- The `<body>` section contains the visible content, including a heading `<h1>` and a paragraph `<p>`.
 
-- The '<html>' tag encloses all the HTML content.
-
-- The '<head>' section includes the <title> tag, which sets the title of the page.
-
-- The '<body>' section contains the visible content, including a heading '<h1>'and a paragraph '<p>'.
 
 ## How Browsers Render HTML
 
