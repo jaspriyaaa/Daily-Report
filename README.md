@@ -2084,7 +2084,7 @@ Forms allow users to input data and submit it to a server. The `<form>` element 
 </form>
 ```
 
-# Semantic HTML: header, footer, nav, section, article
+##  Semantic HTML: header, footer, nav, section, article
 
 Semantic HTML elements clearly describe their meaning to both the browser and the developer. They improve accessibility, SEO, and code readability by providing meaningful page structure.
 
