@@ -2279,7 +2279,7 @@ Git’s architecture consists of three main parts:
 - Helps prepare snapshots for the repository history.
 
 ---
-
+![alt text](architetcure.webp)
 
 
 
