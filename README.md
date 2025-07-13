@@ -1878,32 +1878,43 @@ Just like roads have lanes and traffic rules to avoid crashes, Ethernet has rule
 
 HTML stands for HyperText Markup Language. It's the standard language used to create and design web pages. HTML structures the content on the web by using a system of tags and attributes to define elements like headings, paragraphs, links, images, and more.
 
-### Basic Structure of an HTML Document
+# 🏗️ Basic Structure of an HTML Document
 
-An HTML document is composed of several key components:
+An HTML document is composed of several **key components**:
 
-'<!DOCTYPE html>:' Declares the document type and version of HTML being used (HTML5 in this case).
+## 🔑 Key Elements
 
-'<html>:'  The root element that wraps all the content on the page.
+- `<!DOCTYPE html>`  
+  Declares the document type and version of HTML being used (HTML5 in this case).
 
-'<head>:' Contains meta-information about the document, such as its title and links to stylesheets.
+- `<html>`  
+  The **root element** that wraps all content on the page.
 
-'<title>' Specifies the title of the web page, which appears in the browser tab.
+- `<head>`  
+  Contains **meta-information** about the document, such as the title and links to stylesheets or scripts.
 
-'<body>:'  Contains the content of the web page that is visible to users, such as text, images, and links.
+- `<title>`  
+  Specifies the **title of the web page**, which appears in the browser tab.
 
-**Here's a simple example:**
+- `<body>`  
+  Contains the **visible content** of the web page (text, images, links, etc.).
 
- <!DOCTYPE html>
- <html>
-   <head>
+---
+
+## 💻 Example: Basic HTML Document
+
+```html
+<!DOCTYPE html>
+<html>
+  <head>
     <title>My First Web Page</title>
-   </head>
-   <body>
-     <h1>Welcome to My Website</h1>
-     <p>This is a paragraph of text.</p>
-   </body>
- </html>
+  </head>
+  <body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text.</p>
+  </body>
+</html>
+
 
 
 **In this example:**
