@@ -2049,3 +2049,42 @@ The `<img>` tag is used to embed images into a webpage. It requires the `src` at
 
 An image will be displayed (ensure "image.jpg" exists in the same directory).
 
+
+# Day 11:-
+ ## Introduction to HTML & Web Basics
+
+### Forms and input types
+
+# Day 11: Introduction to HTML & Web Basics
+
+## 1. Forms and Input Types
+
+Forms allow users to input data and submit it to a server. The `<form>` element wraps form controls like text fields, checkboxes, radio buttons, and buttons.
+
+### Common Input Types:
+
+- `<input type="text">` — Single-line text input
+- `<input type="password">` — Password input (hidden characters)
+- `<input type="email">` — Email input with validation
+- `<input type="number">` — Numeric input
+- `<input type="checkbox">` — Checkbox input (multiple selections)
+- `<input type="radio">` — Radio buttons (single selection among options)
+- `<input type="submit">` — Submit button to send form data
+- `<textarea>` — Multi-line text input
+- `<select>` — Dropdown menu
+
+**Example:**
+
+```html
+<form action="/submit" method="post">
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" />
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" />
+
+  <input type="submit" value="Submit" />
+</form>
+```
+
+
