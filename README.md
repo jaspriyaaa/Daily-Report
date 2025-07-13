@@ -2347,7 +2347,9 @@ This guide walks you through the basic steps to clone a GitHub repository, make 
 ### 1. Create a Repository
 - Go to GitHub and create a new repository.
 ![alt text](first.png)
-![alt text](second(2).png)
+![alt text]!(second (2).png)
+
+
 ---
 
 ### 2. Copy the Repository Link
