@@ -2329,8 +2329,49 @@ Git’s architecture consists of three main parts:
 ---
 ![alt text](architetcure.webp)
 
+# How to Use Git (With Command Line)
+
+This guide walks you through the basic steps to clone a GitHub repository, make changes, and push your updates back using Git Bash.
+
+---
+
+## ✅ Step-by-Step Instructions
+
+### 1. Create a Repository
+- Go to GitHub and create a new repository.
+
+---
+
+### 2. Copy the Repository Link
+- Copy the **HTTPS link** from the "Code" button (e.g., `https://github.com/username/repo-name.git`).
+
+---
+
+### 3. Open Git Bash
+
+### 4. Clone the Repository
 
 
+### 5. Check if the Repo Was Cloned
 
+### 6. Move Inside the Repository Directory
+
+### 7. Check the Contents (Optional)
+
+### 8. Check the Status of the Repo using git status
+If the response is:
+Your branch is up to date with 'origin/main'.
+✅ You are good to move forward!
+
+
+### 10. Create a New File and Open the File and Edit (Using Nano)
+
+ nano file_name.html
+ 
+ Write your HTML code.
+
+ Save and exit: CTRL + O → Enter, then CTRL + X.
+
+### 11. Stage the File for Commit:- git add file_name.html
 
 
