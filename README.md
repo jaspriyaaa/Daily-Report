@@ -2245,3 +2245,44 @@ Place your CSS rules inside a `<style>` element like this:
 </html>
 
 ```
+# Day 13:-
+
+## Introduction to Git and Version Control
+
+## What is Git and Why Use Version Control?
+
+- **Git** is a distributed version control system used to track changes in source code during software development.
+- It allows multiple people to collaborate on the same project without overwriting each other's work.
+- Version control helps in:
+  - Keeping a history of changes (who changed what and when).
+  - Reverting to previous versions if something breaks.
+  - Managing multiple versions or branches of a project.
+  - Facilitating collaboration and code review.
+
+---
+
+## Git Architecture
+
+Git’s architecture consists of three main parts:
+
+### 1. Repository (Repo)
+- The repository is where Git stores all the project files and their history.
+- It includes the `.git` directory that tracks changes, commits, branches, tags, and configuration.
+
+### 2. Working Tree (Working Directory)
+- This is the directory on your computer where you edit, add, or delete files.
+- It represents the current state of your project files.
+
+### 3. Index (Staging Area)
+- The index is a temporary area where changes are gathered before committing.
+- You add changes to the index using `git add`, then commit them with `git commit`.
+- Helps prepare snapshots for the repository history.
+
+---
+
+
+
+
+
+
+
