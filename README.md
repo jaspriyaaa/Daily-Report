@@ -2189,9 +2189,6 @@ Semantic HTML elements clearly describe their meaning to both the browser and th
 
 ### Basic styling using inline and internal CSS
 
-# Introduction to HTML & Web Basics
-
-## Basic Styling Using Inline and Internal CSS
 
 CSS (Cascading Style Sheets) is used to add styles like colors, fonts, spacing, and layouts to HTML elements.
 
