@@ -1948,122 +1948,103 @@ When you open a web page, your browser performs several steps to display the con
 
 ## Basic HTML Tags
 
-### 1. Headings (<h1> to <h6>)
+### 1. Headings (`<h1>` to `<h6>`)
 
 Headings define the structure and hierarchy of your content. HTML provides six levels of headings:
 
-<h1>: Main heading (most important)
-
-<h2>: Subheading
-
-<h3>: Sub-subheading
-
-<h4>: Further subheading
-
-<h5>: Less important subheading
-
-<h6>: Least important subheading
+- `<h1>`: Main heading (most important)
+- `<h2>`: Subheading
+- `<h3>`: Sub-subheading
+- `<h4>`: Further subheading
+- `<h5>`: Less important subheading
+- `<h6>`: Least important subheading
 
 **Example:**
 
+```html
 <h1>Main Heading</h1>
-
 <h2>Subheading</h2>
-
 <h3>Sub-subheading</h3>
+```
 
-**Result:**
+**2. Paragraphs (`<p>`)**
 
-Main Heading
-
-Subheading
-
-Sub-subheading
-
-**2. Paragraphs (<p>)**
-
-The <p> tag is used to define paragraphs of text, helping to structure and organize content into readable blocks.
+The `<p>` tag is used to define paragraphs of text, helping to structure and organize content into readable blocks.
 
 **Example:**
 
+```html
 <p>This is a paragraph of text.</p>
-
 <p>This is another paragraph.</p>
-
-**Result:**
-
-This is a paragraph of text.
-
-This is another paragraph.
+```
 
 ### 3. Lists
 
-***Unordered List (<ul>)***
+**Unordered List (`<ul>`)**
 
-An unordered list is used to group a set of items that do not have a specific order. Each item is defined using the <li> tag.
+An unordered list is used to group a set of items that do not have a specific order. Each item is defined using the `<li>` tag.
 
 **Example:**
 
+```html
 <ul>
- 
   <li>Item 1</li>
-  
   <li>Item 2</li>
-  
   <li>Item 3</li>
-  
 </ul>
-
+```
 **Result:**
 
-Item 1
+- Item 1
 
-Item 2
+- Item 2
 
-Item 3
+- Item 3
 
-***Ordered List (<ol>)***
-An ordered list is used to group a set of items that have a specific order. Like unordered lists, each item is defined using the <li> tag.
+**Ordered List (`<ol>`)**
 
-Example:
-
-<ol>
- 
-  <li>First item</li>
-  
-  <li>Second item</li>
-  
-  <li>Third item</li>
-  
-</ol>
-Result:
-
-First item
-
-Second item
-
-Third item
-
-### 4. Links (<a>)
-
-The <a> tag defines hyperlinks, which allow users to navigate from one page to another.
+An ordered list is used to group a set of items that have a specific order. Like unordered lists, each item is defined using the `<li>` tag.
 
 **Example:**
 
+```html
+<ol>
+  <li>First item</li>
+  <li>Second item</li>
+  <li>Third item</li>
+</ol>
+```
+Result:
+
+- First item
+
+- Second item
+
+- Third item
+
+### 4. Links (`<a>`)
+
+The `<a>` tag defines hyperlinks, which allow users to navigate from one page to another.
+
+**Example:**
+
+```html
 <a href="https://www.example.com">Visit Example</a>
+```
 
 **Result:**
 
 Visit Example
+### 5. Images (`<img>`)
 
-### 5. Images (<img>)
-
-The <img> tag is used to embed images into a webpage. It requires the src attribute to specify the image source and the alt attribute to provide alternative text for accessibility.
+The `<img>` tag is used to embed images into a webpage. It requires the `src` attribute to specify the image source and the `alt` attribute to provide alternative text for accessibility.
 
 **Example:**
 
-<img src="image.jpg" alt="Description of image">
+```html
+<img src="image.jpg" alt="Description of image" />
 
+```
 **Result:**
 
 An image will be displayed (ensure "image.jpg" exists in the same directory).
