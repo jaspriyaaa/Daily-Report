@@ -1925,7 +1925,7 @@ An HTML document is composed of several **key components**:
 
 - The '<head>' section includes the <title> tag, which sets the title of the page.
 
-- The '<body>' section contains the visible content, including a heading (<h1>) and a paragraph (<p>).
+- The '<body>' section contains the visible content, including a heading '<h1>'and a paragraph '<p>'.
 
 ## How Browsers Render HTML
 
