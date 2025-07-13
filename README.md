@@ -2264,6 +2264,11 @@ It was created by Linus Torvalds (creator of Linux) in 2005 and is now the most 
 - **History Tracking:** You can see what changed, who changed it, and why.
 - **Backup & Recovery:** Revert to earlier versions if something breaks.
 
+
+### Git Installation on desktop
+
+![alt text](gitdownload.png)
+
 ---
 
 ## What Is Version Control?
@@ -2314,7 +2319,9 @@ It's especially useful in software development, where teams work together and co
 Git’s architecture consists of three main parts:
 
 ### 1. Repository (Repo)
+
 - The repository is where Git stores all the project files and their history.
+- 
 - It includes the `.git` directory that tracks changes, commits, branches, tags, and configuration.
 
 ### 2. Working Tree (Working Directory)
@@ -2339,22 +2346,22 @@ This guide walks you through the basic steps to clone a GitHub repository, make 
 
 ### 1. Create a Repository
 - Go to GitHub and create a new repository.
-
+![alt text](first.png)
+![alt text](second(2).png)
 ---
 
 ### 2. Copy the Repository Link
 - Copy the **HTTPS link** from the "Code" button (e.g., `https://github.com/username/repo-name.git`).
-
+![alt text](third.png)
 ---
 
 ### 3. Open Git Bash
 
 ### 4. Clone the Repository
 
-
 ### 5. Check if the Repo Was Cloned
 
-### 6. Move Inside the Repository Directory
+### 6. Move Inside the Repository Directory by cd repo_name
 
 ### 7. Check the Contents (Optional)
 
@@ -2363,15 +2370,59 @@ If the response is:
 Your branch is up to date with 'origin/main'.
 ✅ You are good to move forward!
 
+![alt text](four.png)
+![alt text](five.png)
 
-### 10. Create a New File and Open the File and Edit (Using Nano)
+### 9. Create a New File and Open the File and Edit (Using Nano)
 
  nano file_name.html
  
  Write your HTML code.
 
  Save and exit: CTRL + O → Enter, then CTRL + X.
+ ![alt text](six.png)
 
-### 11. Stage the File for Commit:- git add file_name.html
+### 10. Add by:- git add file_name.html
+
+***⚠️ Warning Explained***
+
+- Git is converting Unix-style (LF) to Windows-style (CRLF).
+
+- Safe to ignore on Windows systems.
+
+  
+```Commit the Changes
+If this is your first commit and Git gives an identity error:
+
+git config --global user.name "Your Name"
+
+git config --global user.email "you@example.com"
+
+💡 Use the email linked to GitHub, though it's not strictly required for the name.
+
+Now commit again:
+
+git commit -m "Added file_name.html"
+```
+
+### 11. Push Changes to GitHub:- git push origin main
+This may prompt:
+"Authorize Git Credential Manager"
+ ![alt text](gitsignin.png)
+
+– Click Authorize git-ecosystem
+ ![alt text](authorize.png)
+
+– Enter your GitHub credentials
+
+
+### 12. Done 🎉
+ ![alt text](suceeded.png)
+
+***Go to your GitHub repository in the browser — you'll now see your new file!***
+
+
+ ![alt text](index.png)
+
 
 
