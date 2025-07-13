@@ -1178,6 +1178,10 @@ It’s a special type of cable made of 8 small wires twisted into 4 pairs inside
 
 It carries network data (internet, files, etc.) between devices like computers, routers, and switches.
 
+![alt text](wire.webp)
+
+
+
 ### What is an RJ45 Connector?
 
 It’s a small plastic plug with 8 metal pins inside.
@@ -1218,7 +1222,7 @@ RJ45 connectors: To provide a standardized plug that fits network ports on devic
 
 Crimping tools: To securely attach connectors to cables, ensuring reliable network connections without loose wires or signal loss.
 
-
+![alt text](ethernet.jpg)
 
 # Day 07:-
 
