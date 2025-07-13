@@ -2346,14 +2346,17 @@ This guide walks you through the basic steps to clone a GitHub repository, make 
 
 ### 1. Create a Repository
 - Go to GitHub and create a new repository.
+- 
 ![alt text](first.png)
-![alt text]!(second (2).png)
+
+![alt text](new.png)
 
 
 ---
 
 ### 2. Copy the Repository Link
 - Copy the **HTTPS link** from the "Code" button (e.g., `https://github.com/username/repo-name.git`).
+  
 ![alt text](third.png)
 ---
 
@@ -2373,6 +2376,7 @@ Your branch is up to date with 'origin/main'.
 ✅ You are good to move forward!
 
 ![alt text](four.png)
+
 ![alt text](five.png)
 
 ### 9. Create a New File and Open the File and Edit (Using Nano)
@@ -2382,6 +2386,7 @@ Your branch is up to date with 'origin/main'.
  Write your HTML code.
 
  Save and exit: CTRL + O → Enter, then CTRL + X.
+ 
  ![alt text](six.png)
 
 ### 10. Add by:- git add file_name.html
@@ -2410,15 +2415,18 @@ git commit -m "Added file_name.html"
 ### 11. Push Changes to GitHub:- git push origin main
 This may prompt:
 "Authorize Git Credential Manager"
+
  ![alt text](gitsignin.png)
 
 – Click Authorize git-ecosystem
+
  ![alt text](authorize.png)
 
 – Enter your GitHub credentials
 
 
 ### 12. Done 🎉
+
  ![alt text](suceeded.png)
 
 ***Go to your GitHub repository in the browser — you'll now see your new file!***
