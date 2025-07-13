@@ -2051,13 +2051,10 @@ An image will be displayed (ensure "image.jpg" exists in the same directory).
 
 
 # Day 11:-
+
  ## Introduction to HTML & Web Basics
 
 ### Forms and input types
-
-# Day 11: Introduction to HTML & Web Basics
-
-## 1. Forms and Input Types
 
 Forms allow users to input data and submit it to a server. The `<form>` element wraps form controls like text fields, checkboxes, radio buttons, and buttons.
 
