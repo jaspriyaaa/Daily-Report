@@ -2188,3 +2188,63 @@ Semantic HTML elements clearly describe their meaning to both the browser and th
 ## Introduction to HTML & Web Basics
 
 ### Basic styling using inline and internal CSS
+
+# Introduction to HTML & Web Basics
+
+## Basic Styling Using Inline and Internal CSS
+
+CSS (Cascading Style Sheets) is used to add styles like colors, fonts, spacing, and layouts to HTML elements.
+
+---
+
+### 1. Inline CSS
+
+- Inline CSS applies styles directly to an HTML element using the `style` attribute.
+- It affects only the specific element where it is applied.
+- Useful for quick, one-off styling but not recommended for large projects.
+
+**Example:**
+
+```html
+<p style="color: blue; font-size: 18px;">This paragraph is styled with inline CSS.</p>
+
+```
+
+### 2. Internal CSS 
+
+Internal CSS is written inside a `<style>` tag within the `<head>` section of an HTML document. It allows you to style multiple elements on the same page without needing an external stylesheet.
+
+---
+
+### How to use Internal CSS:
+
+Place your CSS rules inside a `<style>` element like this:
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* CSS rules go here */
+    body {
+      background-color: #f0f0f0;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: navy;
+      text-align: center;
+    }
+    p {
+      color: #555;
+      font-size: 16px;
+    }
+  </style>
+  <title>Internal CSS Example</title>
+</head>
+<body>
+  <h1>Welcome to Internal CSS</h1>
+  <p>This paragraph is styled using internal CSS.</p>
+</body>
+</html>
+
+```
