@@ -2254,6 +2254,10 @@ There are **3 ways** to add CSS:
 <p style="color: blue; font-size: 18px;">This paragraph is styled with inline CSS.</p>
 
 ```
+***Result***
+
+![alt text](inline.png)
+
 
 ### 2. Internal CSS 
 
@@ -2293,6 +2297,10 @@ Place your CSS rules inside a `<style>` element like this:
 </html>
 
 ```
+***Result***
+
+![alt text](internal.png)
+
 
 ### 🌐 External CSS (Simple Explanation)
 
@@ -2341,6 +2349,7 @@ p {
 
 ***Result***
 
+![alt text](external.png)
 
 # Day 13:-
 
