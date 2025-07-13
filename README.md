@@ -2087,4 +2087,107 @@ Forms allow users to input data and submit it to a server. The `<form>` element 
 </form>
 ```
 
+# Semantic HTML: header, footer, nav, section, article
 
+Semantic HTML elements clearly describe their meaning to both the browser and the developer. They improve accessibility, SEO, and code readability by providing meaningful page structure.
+
+---
+
+### `<header>`
+
+- Represents introductory content or a group of navigational links.
+- Typically contains the site title, logo, and main navigation.
+- Can be used within the `<body>` or within other elements like `<article>` or `<section>`.
+
+**Example:**
+
+```html
+<header>
+  <h1>Website Title</h1>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+  </nav>
+</header>
+
+
+```
+### `<footer>`
+
+- The `<footer>` element represents the footer section of a document or a section.
+- It typically contains information like:
+  - Copyright details
+  - Contact info
+  - Links to terms of service, privacy policies
+  - Social media links
+- It can be used at the bottom of the entire page or within specific sections/articles.
+
+**Example:**
+
+```html
+<footer>
+  <p>© 2025 Your Company. All rights reserved.</p>
+  <nav>
+    <a href="/privacy">Privacy Policy</a> |
+    <a href="/terms">Terms of Service</a>
+  </nav>
+</footer>
+
+```
+### `<nav>`
+
+- The `<nav>` element defines a section of the page intended for navigation links.
+- It helps browsers and assistive technologies identify where the main navigation menu or links are located.
+- Typically contains lists of links to other pages or sections within the site.
+
+**Example:**
+
+```html
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/services">Services</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+
+```
+
+### `<section>`
+
+- The `<section>` element represents a standalone section of content within a webpage.
+- It groups related content together, typically with a heading.
+- Sections help organize the page into meaningful parts, improving readability and accessibility.
+- Can be nested inside other sections or articles.
+
+**Example:**
+
+```html
+<section>
+  <h2>About Our Company</h2>
+  <p>We specialize in web development and design.</p>
+</section>
+```
+
+### `<article>`
+
+- The `<article>` element represents a self-contained, independent piece of content.
+- Suitable for blog posts, news articles, forum posts, or any content that makes sense on its own.
+- Usually contains a heading, paragraphs, images, and other related content.
+- Can be distributed or reused independently from the rest of the page.
+
+**Example:**
+
+```html
+<article>
+  <h2>Understanding Semantic HTML</h2>
+  <p>Semantic HTML improves accessibility and SEO by giving meaning to the web content.</p>
+</article>
+```
+
+# Day 12:-
+
+## Introduction to HTML & Web Basics
+
+### Basic styling using inline and internal CSS
