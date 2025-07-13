@@ -2190,9 +2190,57 @@ Semantic HTML elements clearly describe their meaning to both the browser and th
 ### Basic styling using inline and internal CSS
 
 
-CSS (Cascading Style Sheets) is used to add styles like colors, fonts, spacing, and layouts to HTML elements.
+### 🎨 HTML Styles – CSS
+
+**CSS** stands for **Cascading Style Sheets**.  
+It is used to control the appearance and layout of web pages.
 
 ---
+
+### 💡 Why Use CSS?
+
+- Saves time – apply styles across multiple pages
+- Separates content (HTML) from design (CSS)
+- Makes your site more consistent and easier to maintain
+
+---
+
+### ✅ CSS Can:
+
+- Style text (fonts, colors, size)
+- Add backgrounds, borders, and spacing
+- Control layout and positioning of elements
+- Make designs responsive for different devices
+
+---
+
+### 📘 What is CSS?
+
+**Cascading Style Sheets (CSS)** format the layout of web pages.
+
+With CSS, you can control:
+- Text color, size, and font
+- Element spacing and alignment
+- Backgrounds and borders
+- Responsive layouts for mobile/tablet/desktop
+- Visibility and display behavior
+
+> 🔄 **Cascading** means styles applied to parent elements affect their child elements unless overridden.
+
+---
+
+### 🧩 Ways to Use CSS in HTML
+
+There are **3 ways** to add CSS:
+
+| Type       | Description                                           |
+|------------|-------------------------------------------------------|
+| Inline     | Inside the HTML element using the `style` attribute  |
+| Internal   | Inside `<style>` tag in the `<head>` section         |
+| External   | In a separate `.css` file linked with `<link>`       |
+
+---
+
 
 ### 1. Inline CSS
 
@@ -2245,6 +2293,55 @@ Place your CSS rules inside a `<style>` element like this:
 </html>
 
 ```
+
+### 🌐 External CSS (Simple Explanation)
+
+**External CSS** means writing your CSS code in a separate file (with `.css` extension) and linking it to your HTML file.
+
+---
+
+### ✅ Why Use External CSS?
+
+- Keeps HTML clean
+- Reuse the same styles on many pages
+- Easy to update design in one place
+
+---
+
+***Example***
+
+```<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+```
+
+The external style sheet can be written in any text editor. The file must not contain any HTML code, and must be saved with a .css extension.
+
+Here is what the "styles.css" file looks like:
+
+```"styles.css":
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+```
+
+***Result***
+
+
 # Day 13:-
 
 ## Introduction to Git and Version Control
