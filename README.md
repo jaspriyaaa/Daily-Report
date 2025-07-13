@@ -1914,7 +1914,7 @@ An HTML document is composed of several **key components**:
     <p>This is a paragraph of text.</p>
   </body>
 </html>
-
+ ```
 
 
 **In this example:**
