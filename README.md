@@ -2431,7 +2431,6 @@ Git’s architecture consists of three main parts:
 ### 1. Repository (Repo)
 
 - The repository is where Git stores all the project files and their history.
-- 
 - It includes the `.git` directory that tracks changes, commits, branches, tags, and configuration.
 
 ### 2. Working Tree (Working Directory)
