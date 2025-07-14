@@ -2576,6 +2576,50 @@ Run and validate features in isolation before merging—only integrate when ever
 ### 6. Keep Main Clean & Stable  
 Avoid merging unfinished or broken code into **main**, so it's always production-ready.
 
+*To create a new branch*
+
+    git branch branch-name
+
+To create and switch to it at the same time:
+
+    git checkout branch-name
+    
+    ```
+    
+
+   
+## Practical demonstration for Branching
+
+**✅ git push -u origin mynew@branch**
+Pushes the local branch mynew@branch to the remote origin and sets it to track that remote branch.
+
+**✅ git push**
+Pushes the current branch to its tracked remote branch (if set with -u earlier).
+
+**✅ origin**
+The default name Git gives to the remote repository you cloned from.
+
+**✅ mynew@branch (local branch name)**
+The name of your local branch containing your changes.
+
+**✅ -u or --set-upstream**
+Tells Git to remember the remote branch to track so future push/pull commands can omit the branch name.
+
+Let me know if you want a real-world example or GitHub workflow with these!
+
+![alt text](branching.png)
+
+![alt text](branch.png)
+
+![alt text](test1.png)
 
 
+## Merging 
+
+Merging in Git combines the changes from one branch into another. Typically, you:
+
+- Switch to the branch you want to merge into (often main or develop).
+- Run the merge command with the name of the branch you want to merge from.
+
+![alt text](merge.png)
 
