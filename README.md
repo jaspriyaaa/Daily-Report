@@ -2407,7 +2407,7 @@ It's especially useful in software development, where teams work together and co
 - You can work offline and sync later.
 - Most modern systems use this; Git is the most popular.
 
-## Why future coder must use git
+## Why future coder must use git?
 
 | Reason                    | Why It Matters                                                                 |
 |---------------------------|---------------------------------------------------------------------------------|
