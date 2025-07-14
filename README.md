@@ -2546,6 +2546,12 @@ This may prompt:
 
 # Day 14:-
 
-## BRANCHING
+## 🌿 What Is Branching?
+
+Branching is the process of creating a separate line of development—a copy of the codebase—so you can work on it independently from the main version (often called mainline, trunk, or master) 
+
+In Git, a branch is a lightweight, movable pointer to a specific commit. It allows you to diverge from the main line and continue development without affecting it.
+
+
 
 
